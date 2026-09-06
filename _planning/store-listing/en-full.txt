@@ -1,0 +1,40 @@
+You do not manage a football club. You manage the careers of footballers.
+
+Pro Football Agent puts you on the other side of the table. You start as an unknown agent with a little money, no reputation and nobody returning your calls. Somewhere out there is a teenager nobody is watching yet. Find them, convince them to sign with you, and from that moment their career is your career.
+
+BUILD A SCOUTING NETWORK
+Twenty-two leagues across sixteen countries and regions, from Brazil and Argentina to Japan, Saudi Arabia, North and West Africa, and the big European divisions with their second tiers underneath. Every league stays dark until you pay to open it — and early on you cannot afford many. Where you look first is your first real decision.
+
+WIN CLIENTS OVER
+Signing a player is a conversation, not a button. Reputation decides who will even take the meeting: stars at big clubs and hyped wonderkids want an agent with a name, while the overlooked player at a small club is the one willing to talk to a nobody. That is where every good agency starts.
+
+NEGOTIATE THE CONTRACT
+Wage talks turn on real leverage. What the player has done over their last five matches, what the club can actually afford, and why the table was called in the first place all move the number. A player in form gets the raise. A player who has not played does not.
+
+MOVE THEM TO THE RIGHT CLUB
+Transfer offers go out and come back against clubs that run their own budgets, squad limits and end-of-season business. Your client's next step is a real choice: more money, more minutes, or a bigger stage.
+
+GROW YOUR AGENCY
+A skill tree opens in four directions — the Table (contracts, negotiation, trust), the Field (scouting and player development), the Agency (money, overheads, capacity, getting your name out) and the Network (club relations, transfers, keeping the clients you have). You cannot walk all four. Every agency ends up good at something specific.
+
+HANDLE THE WEEKS IN BETWEEN
+The press, the player, the club, the money, the crises. Events land in your inbox and every answer costs something: cash, reputation, morale, or your client's trust in you. There is rarely a free choice.
+
+A WORLD THAT MOVES WITHOUT YOU
+Matches are simulated week by week. Form and morale swing, players develop and decline, clubs are promoted and relegated, and every fourth season the national teams meet in a tournament. Fourteen rival agencies work the same market: they sign players in the background, race you for a signature, and try to take the clients you already have.
+
+BUILT TO BE PLAYED ANYWHERE
+The game runs entirely on your device. No account, no login, no internet connection required — on a plane, on the metro, with the data switched off, it plays exactly the same. Three career slots, saved on your phone.
+
+TURKISH AND ENGLISH
+Both languages are written together rather than translated in afterwards, and you can switch between them at any time from the settings screen.
+
+FOUR INTERFACE THEMES
+Dossier, Newsprint, Terminal and Pitch — a light neutral layout, a warm paper look, a dense dark data view, and the deep navy original. Pick the one you want to spend a long season in.
+
+PRIVACY
+The game has no accounts, no analytics and no advertising SDK. Your saves and settings stay in the app's own storage on your device and are never sent anywhere. The full privacy policy is at https://xahke.github.io/privacy/pro-football-agent/en.html
+
+Free to play. Made by one developer.
+
+Questions, bugs and feedback: xahkeee@gmail.com

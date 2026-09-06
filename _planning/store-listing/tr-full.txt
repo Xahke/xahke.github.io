@@ -1,0 +1,40 @@
+Bir futbol takımını değil, futbolcuların kariyerlerini yönetiyorsun.
+
+Pro Football Agent seni masanın öbür tarafına oturtuyor. Az parası, hiç itibarı ve telefonuna cevap veren kimsesi olmayan, adı duyulmamış bir menajer olarak başlıyorsun. Dünyanın bir yerinde ise henüz kimsenin bakmadığı bir genç var. Onu bul, seninle çalışmaya ikna et; o andan sonra onun kariyeri senin kariyerin.
+
+KEŞİF AĞINI KUR
+On altı ülke ve bölgeye dağılmış yirmi iki lig: Brezilya ve Arjantin'den Japonya'ya, Suudi Arabistan'a, Kuzey ve Batı Afrika'ya ve altlarında ikinci kademeleriyle büyük Avrupa liglerine kadar. Her lig, parasını ödeyip açana kadar karanlıkta kalıyor — ve başlangıçta çoğuna paran yetmiyor. Nereye önce bakacağın, verdiğin ilk gerçek karar.
+
+MÜŞTERİNİ İKNA ET
+Oyuncu imzalamak bir düğmeye basmak değil, bir görüşme. Kimin seninle görüşeceğine itibarın karar veriyor: büyük kulüplerin yıldızları ve adı çıkmış genç yetenekler adı olan bir menajer istiyor; küçük bir kulüpte gözden kaçmış oyuncu ise adı duyulmamış birine kulak veren kişi oluyor. Her iyi ajans oradan başlıyor.
+
+SÖZLEŞMEYİ PAZARLIK ET
+Maaş görüşmesi gerçek kozlar üzerinden yürüyor. Oyuncunun son beş maçta ne yaptığı, kulübün gerçekten ne ödeyebileceği ve masanın en baştan neden kurulduğu — hepsi rakamı oynatıyor. Formda olan oyuncu zammını alıyor; oynamayan almıyor.
+
+DOĞRU KULÜBE TAŞI
+Transfer teklifleri; kendi bütçesini, kadro sınırlarını ve sezon sonu işlerini yürüten kulüplerle karşılıklı gidip geliyor. Müşterinin bir sonraki adımı gerçek bir tercih: daha çok para, daha çok süre ya da daha büyük sahne.
+
+AJANSINI BÜYÜT
+Yetenek ağacı dört yöne açılıyor — Masa (sözleşme, pazarlık, güven), Saha (keşif ve oyuncu gelişimi), Ajans (para, gider, kapasite, adının duyulması) ve Ağ (kulüp ilişkileri, transfer masası, mevcut müşterilerini elde tutmak). Dördünü birden yürüyemiyorsun. Her ajans sonunda belirli bir şeyde iyi oluyor.
+
+ARADAKİ HAFTALARI YÖNET
+Basın, oyuncu, kulüp, para ve krizler. Olaylar gelen kutuna düşüyor ve her cevabın bir bedeli var: kasa, itibar, moral ya da müşterinin sana duyduğu güven. Bedava seçenek pek çıkmıyor.
+
+SENSİZ DE YÜRÜYEN BİR DÜNYA
+Maçlar hafta hafta simüle ediliyor. Form ve moral oynuyor, oyuncular gelişip yaşlanıyor, kulüpler küme düşüp yükseliyor ve her dört sezonda bir milli takımlar turnuvada karşılaşıyor. Aynı piyasada on dört rakip ajans çalışıyor: arka planda kendi oyuncularını imzalıyor, bir imza için seninle yarışıyor ve mevcut müşterilerini almaya çalışıyorlar.
+
+HER YERDE OYNANSIN DİYE YAPILDI
+Oyun tamamen cihazında çalışıyor. Hesap yok, giriş yok, internet bağlantısı gerekmiyor — uçakta, metroda, veri kapalıyken tıpatıp aynı şekilde oynanıyor. Üç kariyer yuvası, telefonunda saklanıyor.
+
+TÜRKÇE VE İNGİLİZCE
+İki dil sonradan çevrilmek yerine birlikte yazılıyor ve ayarlar ekranından istediğin an aralarında geçiş yapabiliyorsun.
+
+DÖRT ARAYÜZ TEMASI
+Dosya, Gazete, Terminal ve Saha — açık nötr bir düzen, sıcak bir kâğıt görünümü, yoğun ve koyu bir veri ekranı ve koyu lacivert ilk tasarım. Uzun bir sezonu içinde geçirmek istediğini seç.
+
+GİZLİLİK
+Oyunda hesap, analitik ve reklam SDK'sı yok. Kayıtların ve ayarların cihazındaki uygulamanın kendi depolamasında kalıyor, hiçbir yere gönderilmiyor. Tam gizlilik metni: https://xahke.github.io/privacy/pro-football-agent/tr.html
+
+Ücretsiz. Tek bir geliştirici tarafından yapıldı.
+
+Sorular, hatalar ve geri bildirim: xahkeee@gmail.com

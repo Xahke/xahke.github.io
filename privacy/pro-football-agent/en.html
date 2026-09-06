@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacy Policy — Pro Football Agent — Xahke</title>
+<meta name="description" content="Privacy policy for Pro Football Agent (com.xahke.profootballagent) by Xahke. What the game stores on your device, what it does not collect, and how to delete your data.">
+<meta name="theme-color" content="#0B111E">
+<link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/img/pro-football-agent-icon-96.png">
+<link rel="alternate" hreflang="en" href="https://xahke.github.io/privacy/pro-football-agent/en.html">
+<link rel="alternate" hreflang="tr" href="https://xahke.github.io/privacy/pro-football-agent/tr.html">
+<link rel="alternate" hreflang="x-default" href="https://xahke.github.io/privacy/pro-football-agent/en.html">
+<link rel="canonical" href="https://xahke.github.io/privacy/pro-football-agent/en.html">
+<link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="/"><span class="dot" aria-hidden="true"></span>Xahke</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/pro-football-agent/">Pro Football Agent</a></li>
+        <li><a href="/privacy/pro-football-agent/en.html" aria-current="page">Privacy</a></li>
+        <li><a href="mailto:xahkeee@gmail.com">Support</a></li>
+        <li>
+          <span class="lang-switch">
+            <a href="/privacy/pro-football-agent/en.html" hreflang="en" aria-current="true">EN</a>
+            <a href="/privacy/pro-football-agent/tr.html" hreflang="tr" lang="tr">TR</a>
+          </span>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <article class="wrap legal">
+
+    <h1>Privacy Policy — Pro Football Agent</h1>
+
+    <p class="meta">
+      <b>Developer:</b> Muhammed Berkin Karaca, publishing as Xahke (independent developer)<br>
+      <b>App:</b> Pro Football Agent<br>
+      <b>Package name:</b> com.xahke.profootballagent<br>
+      <b>Contact:</b> <a href="mailto:xahkeee@gmail.com">xahkeee@gmail.com</a><br>
+      <b>Last updated:</b> 6 September 2026<br>
+      <b>Status:</b> Draft. The app has not been released yet.
+    </p>
+
+    <div class="note">
+      <p><strong>Please read this first.</strong> This document describes what the current, unreleased build of Pro Football Agent does. It is published early so it can be reviewed before the app goes to Google Play. It will be reviewed and updated again before release, and in particular it must be rewritten if and when advertising is added to the game (see <a href="#future">Planned changes</a>).</p>
+    </div>
+
+    <h2 id="summary">Short version</h2>
+    <p>Pro Football Agent is a single-player game that runs entirely on your device. It has no accounts, no login and no server of its own. Everything you create in the game — your careers, your agency, your settings — is written to storage that belongs to the app on your phone, and the current version of the game does not send any of it anywhere.</p>
+    <p>The developer does not receive your game data. There is one way the developer does receive information from you, and it is one you start: if you write to the support address, your e-mail address and whatever you put in the message are received and read. That is described under <a href="#support">If you write to support</a>.</p>
+
+    <h2 id="collect">What the game stores on your device</h2>
+    <p>The game writes the following to its own private app storage on your device:</p>
+    <ul>
+      <li><strong>Career saves.</strong> Up to three career slots. A save contains the game world and your progress in it: the agency name and agent name you typed in, your clients, your money and reputation, the leagues you have scouted, match history and in-game messages. The app never asks you for your real name, e-mail address, phone number, age or location. The agency and agent names are free text, so you can type anything there — including your own name if you want to. Whatever you type stays on your device like the rest of the save.</li>
+      <li><strong>A small summary of each save slot,</strong> so the main menu can list your careers without loading a full save.</li>
+      <li><strong>Device preferences:</strong> your chosen interface theme, your language (Turkish or English) and whether sound effects are on.</li>
+    </ul>
+    <p>These are not all kept in the same place:</p>
+    <ul>
+      <li><strong>Career saves and the slot summaries</strong> are kept in the app's own IndexedDB database. If IndexedDB is unavailable on your device, the game keeps them in local storage instead.</li>
+      <li><strong>Your theme, language and sound preferences</strong> are always kept in local storage, directly. They are not in IndexedDB, and this is not a fallback — local storage is where they normally live.</li>
+    </ul>
+    <p>Both of these live inside the app's own storage area. Android gives each installed app its own storage that other apps do not have ordinary access to; this is the platform's normal app isolation, not a protection the game adds on top.</p>
+    <p>The game does not use advertising identifiers, and it does not generate or store a device ID or any other identifier that would let you be recognised across apps or sessions.</p>
+
+    <h2 id="not-collect">What the game does not do</h2>
+    <ul>
+      <li>It does <strong>not</strong> ask you to create an account or sign in.</li>
+      <li>It does <strong>not</strong> send your saves, settings or any other data to the developer or to any server on its own. Nothing reaches the developer unless you send it yourself by e-mail.</li>
+      <li>It has <strong>no</strong> cloud save and <strong>no</strong> synchronisation between devices.</li>
+      <li>It contains <strong>no</strong> analytics or crash-reporting SDK, and <strong>no</strong> advertising SDK.</li>
+      <li>It has <strong>no</strong> multiplayer, chat, leaderboard or any other online feature.</li>
+      <li>It does <strong>not</strong> request access to your contacts, photos, files, camera, microphone or location.</li>
+      <li>It does <strong>not</strong> contain in-app purchases.</li>
+    </ul>
+
+    <h2 id="internet">Why the app declares the internet permission</h2>
+    <p>The app declares the standard Android <code>INTERNET</code> permission. This is a default of the app framework the game is built with, and the game does not make use of it: the game code contains no request to any external address. Everything the game displays is bundled inside the installed app.</p>
+    <p>The game also ships a service worker for offline caching, which only ever requests the app's own bundled files and is not active in the Android app at all — it is only used when the game runs in a web browser.</p>
+    <p>If a future version does make network requests, this section will be corrected before that version is released.</p>
+
+    <h2 id="backup">Android backup</h2>
+    <p>The app allows Android's standard <em>Auto Backup for Apps</em>, and it does not exclude any of its own files from it. So if you have device backup switched on in your Android settings, your operating system may include the app's data — including your career saves — in the backup it stores in your own Google Drive account, and may restore it when you set up a new device or transfer data device to device.</p>
+    <p>Whether a backup is actually made, and what ends up inside it, is decided by Android, not by the app: it depends on your backup setting, your network and the platform's own conditions.</p>
+    <p>The backup itself is performed by Android and Google, not by the game and not by the developer, and the developer has no access to it. Android documents that on Android 9 and later this backup is end-to-end encrypted using your device's screen lock — that protection depends on your device actually having a PIN, pattern or password set. You control the whole feature in your device settings, under Backup, where you can turn it off.</p>
+    <p>For details of how Google handles it, see Google's own documentation on Android backup and the <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Privacy Policy</a>.</p>
+
+    <h2 id="delete">Deleting your data</h2>
+    <p>Game data stays on your device, so you delete it yourself. Each of the actions below removes the data held <strong>on that device</strong>:</p>
+    <ul>
+      <li><strong>Delete one career:</strong> in the game, open a career slot's card in the main menu, or go to Settings inside a career, and use "Delete career". This removes that save from the device.</li>
+      <li><strong>Delete everything:</strong> in Android settings, go to Apps &rarr; Pro Football Agent &rarr; Storage and choose "Clear storage" / "Clear data". This removes all saves and preferences from the device.</li>
+      <li><strong>Uninstalling the app</strong> also removes its local data from the device.</li>
+    </ul>
+    <p>These actions do not reach backup copies. If you have Android backup enabled, a copy of the app's data may still exist in your Google Drive backup after you clear the app's storage or uninstall it. That copy is managed by your Google account and is removed separately, through your device's backup settings or the Google Drive app.</p>
+    <p>There is nothing for the developer to delete on your behalf, because the developer never receives your game data in the first place. Support e-mail is the exception, and it is covered in its own section below.</p>
+
+    <h2 id="retention">Retention</h2>
+    <p>Game data is kept on your device for as long as you keep it. The developer does not store it, so there is no server-side retention period for game data. Retention of the Android backup copy described above is determined by Google and by your own device settings. Support e-mail is the one thing the developer does hold, and its retention is described under <a href="#support">If you write to support</a>.</p>
+
+    <h2 id="support">If you write to support</h2>
+    <p>Support is a plain e-mail address: <a href="mailto:xahkeee@gmail.com">xahkeee@gmail.com</a>. The game does not have a contact form and does not send anything on your behalf — an e-mail only exists if you write it.</p>
+    <p>If you do write, your e-mail address and the content of your message are received and read by the developer. That includes your name as it appears in your mail account and anything else you choose to put in the message — a description of a problem, your device model, your Android version, a screenshot you attach. Please do not send information you would rather not share.</p>
+    <p>Support mail is used only to answer you and to fix the problem you reported. It is not used for marketing and it is not passed on to any third party for their own purposes. It is not, however, handled by the developer alone: the mailbox is a Gmail account, so Google receives and processes your message as the e-mail provider, under the <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Privacy Policy</a>.</p>
+    <p>Support messages are not deleted automatically, and no fixed retention period applies to them. They stay in the mailbox until they are deleted by hand. You can ask for your correspondence to be deleted by writing to the same address. How this is handled routinely has not been settled yet, and this section will be made specific before the app is released.</p>
+
+    <h2 id="website">This website</h2>
+    <p>This site is a set of static pages hosted on GitHub Pages. It has no analytics, no advertising, no tracking pixels, no cookie banner, no contact form and no third-party fonts or scripts. It sets no cookies of its own.</p>
+    <p>GitHub, as the host, logs visitors' IP addresses for security purposes when a GitHub Pages site is visited. That logging is GitHub's, is entirely separate from the game, and is covered by the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener noreferrer">GitHub Privacy Statement</a>. The developer does not receive those logs.</p>
+
+    <h2 id="children">Age</h2>
+    <p>Pro Football Agent is intended for players aged 13 and over. This is the developer's own decision about the intended audience; it is not an official store age rating, and the Google Play content rating questionnaire has not been completed yet. This statement describes intent and is not on its own a determination of compliance with any particular law.</p>
+    <p>The game does not ask any player, of any age, for personal information, and it does not send anything about a player to the developer on its own. The one route by which information reaches the developer is a support e-mail that someone chooses to send; if a child writes in, the developer sees that message like any other. If you are a parent or guardian and have a question about the game — or want a message deleted — please write to <a href="mailto:xahkeee@gmail.com">xahkeee@gmail.com</a>.</p>
+
+    <h2 id="future">Planned changes</h2>
+    <p>An AdMob account has been created for this app, but <strong>no advertising SDK and no consent management platform (UMP) are integrated into the game at this time</strong>. The build described by this policy shows no ads and contains no ad code.</p>
+    <p>If advertising is added later, that will change what the app does: an advertising SDK typically collects data such as device and advertising identifiers, and in some regions a consent flow is required before it may do so. This policy will be rewritten to describe the actual behaviour, and the Google Play Data safety declaration will be updated, before any version containing ads is published. Nothing on this page should be read as a promise that no data will ever be collected by a future version.</p>
+
+    <h2 id="changes">Changes to this policy</h2>
+    <p>When this policy changes, the "Last updated" date at the top of the page changes with it. The current version always lives at this address:<br>
+      <a href="https://xahke.github.io/privacy/pro-football-agent/en.html">https://xahke.github.io/privacy/pro-football-agent/en.html</a></p>
+
+    <h2 id="contact">Contact</h2>
+    <p>For any question about this policy or about your data, write to
+      <a href="mailto:xahkeee@gmail.com">xahkeee@gmail.com</a>.</p>
+    <p class="muted"><small>This document is also available in <a href="/privacy/pro-football-agent/tr.html" hreflang="tr" lang="tr">Türkçe</a>. Both versions describe the same thing; if they ever disagree, that is a mistake — please report it to the address above.</small></p>
+
+  </article>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <ul>
+      <li><a href="/">Xahke home</a></li>
+      <li><a href="/pro-football-agent/">Pro Football Agent</a></li>
+      <li><a href="mailto:xahkeee@gmail.com">xahkeee@gmail.com</a></li>
+      <li><a href="/privacy/pro-football-agent/tr.html" hreflang="tr" lang="tr">Türkçe</a></li>
+    </ul>
+    <p>Xahke — Muhammed Berkin Karaca. Independent game developer.</p>
+  </div>
+</footer>
+
+</body>
+</html>
