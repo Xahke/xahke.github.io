@@ -39,7 +39,7 @@ girmiyor). Sayılan birim Unicode karakter — Türkçe harfler tek karakter say
 | `en-short.txt` | 74 | 80 | uygun |
 | `tr-short.txt` | 74 | 80 | uygun |
 | `en-full.txt` | 3509 | 4000 | uygun |
-| `tr-full.txt` | 3411 | 4000 | uygun |
+| `tr-full.txt` | 3414 | 4000 | uygun |
 
 Yeniden ölçmek için depo kökünde:
 

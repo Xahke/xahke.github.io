@@ -80,13 +80,16 @@ sessizce başarısız kılar ve düzeltilmesi gecikir.
 - [ ] İmzalı AAB üret ve yükle. İmzalama yapılandırması depoda değil; anahtar ve
       parolalar depo dışında kalacak.
 
+## Karara bağlanan içerik noktaları
+
+- **İsim.** Android ve mağaza adı **Pro Football Agent**
+  (`android/.../strings.xml`); web/PWA manifest'indeki ve oyun içindeki
+  **Menajer** başlığı ise bilinçli olarak korunuyor (`manifest.json`,
+  `index.html`). Site her yerde "Pro Football Agent" diyor. Bu konu karar
+  beklemiyor, yapılacak bir değişiklik yok.
+
 ## Karar bekleyen içerik noktaları
 
-- Oyunun mağazadaki adı ile uygulama içindeki adı ayrışıyor: Android uygulama adı
-  **Pro Football Agent** (`android/.../strings.xml`), web/PWA manifest'i ve oyun içi
-  başlık ise hâlâ **Menajer** (`manifest.json`, `index.html`). Site her yerde
-  "Pro Football Agent" diyor. Mağazaya çıkmadan önce hangisinin görüneceğine karar
-  verilmeli.
 - Site şu an yalnız `xahke.github.io` üzerinde. Özel alan adı düşünülüyorsa,
   gizlilik metni URL'si Play Console'a girilmeden önce karara bağlanmalı —
   sonradan değiştirmek formun yeniden incelenmesini gerektiriyor.
