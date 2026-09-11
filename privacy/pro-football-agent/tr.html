@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Gizlilik Metni — Pro Football Agent — Xahke</title>
-<meta name="description" content="Xahke tarafından geliştirilen Pro Football Agent (com.xahke.profootballagent) için gizlilik metni. Oyunun cihazında ne sakladığı, neyi toplamadığı ve verilerini nasıl sileceğin.">
+<meta name="description" content="Xahke tarafından geliştirilen Pro Football Agent (com.xahke.profootballagent) için gizlilik metni. Oyunun cihazında ne sakladığı, ödüllü reklamla birlikte Google'a ne gittiği, doğum yılı beyanı ve verilerini nasıl sileceğin.">
 <meta name="theme-color" content="#0B111E">
 <link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/assets/img/pro-football-agent-icon-96.png">
@@ -47,89 +47,149 @@
       <b>Uygulama:</b> Pro Football Agent<br>
       <b>Paket adı:</b> com.xahke.profootballagent<br>
       <b>İletişim:</b> <a href="mailto:xahkeee@gmail.com">xahkeee@gmail.com</a><br>
-      <b>Son güncelleme:</b> 6 Eylül 2026<br>
-      <b>Durum:</b> Taslak. Uygulama henüz yayımlanmadı.
+      <b>Son güncelleme:</b> 12 Eylül 2026<br>
+      <b>Uygulamanın durumu:</b> Google Play'de henüz yayımlanmadı.
     </p>
 
     <div class="note">
-      <p><strong>Önce bunu oku.</strong> Bu metin, Pro Football Agent'ın henüz yayımlanmamış mevcut sürümünün ne yaptığını anlatıyor. Uygulama Google Play'e gitmeden önce incelenebilsin diye erkenden yayımlandı. Yayından önce yeniden gözden geçirilip güncellenecek; özellikle oyuna reklam eklendiği anda yeniden yazılması gerekecek (bkz. <a href="#gelecek">Planlanan değişiklikler</a>).</p>
+      <p><strong>Önce bunu oku.</strong> Bu metin, Pro Football Agent'ın Android sürümünün bugün ne yaptığını anlatıyor. Uygulama henüz Google Play'de yayımlanmadı. Oyunun kendisi çevrimdışı çalışıyor ve kayıtlarını hiçbir yere göndermiyor; buna karşılık uygulamada Google'ın reklam ve reklam izni araçları bulunuyor ve doğum yılını paylaşıp reklam yaş eşiğini karşılıyorsan bunlar her açılışta Google'a bağlanıyor. İkisi ayrı şeyler ve aşağıda ayrı ayrı anlatılıyor.</p>
     </div>
 
     <h2 id="ozet">Kısa hâli</h2>
-    <p>Pro Football Agent, tamamen cihazında çalışan tek kişilik bir oyun. Hesabı yok, girişi yok ve kendine ait bir sunucusu yok. Oyunda ürettiğin her şey — kariyerlerin, ajansın, ayarların — telefonundaki uygulamaya ait depolama alanına yazılıyor ve oyunun mevcut sürümü bunların hiçbirini hiçbir yere göndermiyor.</p>
-    <p>Geliştirici oyun verilerini almıyor. Geliştiriciye senden bilgi ulaşmasının tek bir yolu var ve onu sen başlatıyorsun: destek adresine yazarsan, e-posta adresin ve mesaja koyduğun her şey alınıp okunuyor. Bu, <a href="#destek">Destek e-postası yazarsan</a> bölümünde anlatılıyor.</p>
+    <p>Pro Football Agent, tek kişilik bir menajerlik oyunu. Hesabı yok, girişi yok ve geliştiricinin oyuna ait bir sunucusu yok. Kariyerlerin, ajans adın ve ayarların telefonundaki uygulama depolama alanına yazılıyor.</p>
+    <p>Bunlar üç ayrı konu ve karıştırılmamalı. <strong>Birincisi:</strong> oyun, kayıtlarını ve yazdıklarını geliştiriciye ya da başka bir yere göndermiyor. <strong>İkincisi:</strong> bize yazarsan destek mesajın ve e-posta adresin geliştiriciye ulaşıyor. <strong>Üçüncüsü:</strong> uygulama Google Play üzerinden yayımlandığında mağazanın kendi raporları ve mağazaya yazılan yorumlar geliştiriciye görünecek. Uygulamadaki ödüllü reklamı ise sen başlatıyorsun ve karşılığında oyun içi para kazanıyorsun; reklam işini Google yürüttüğü için reklamla ilgili veriler geliştiriciye değil Google'a gidiyor.</p>
 
     <h2 id="toplanan">Oyunun cihazında sakladıkları</h2>
-    <p>Oyun, cihazındaki kendi özel uygulama depolamasına şunları yazıyor:</p>
+    <p>Aşağıdakiler telefonunda, uygulamanın kendi depolama alanında tutuluyor. Oyun bunları hiçbir yere göndermiyor; ancak cihazında Android yedeklemesi açıksa işletim sistemin bu verileri yedeğe dâhil edebiliyor — bu, oyunun değil Android'in yaptığı bir iş ve <a href="#yedekleme">Android yedeklemesi</a> bölümünde anlatılıyor.</p>
     <ul>
-      <li><strong>Kariyer kayıtları.</strong> En fazla üç kariyer yuvası. Bir kayıt, oyun dünyasını ve o dünyadaki ilerlemeni içeriyor: yazdığın ajans ve menajer adı, müşterilerin, paran ve itibarın, keşfettiğin ligler, maç geçmişi ve oyun içi mesajlar. Uygulama senden hiçbir zaman gerçek adını, e-posta adresini, telefon numaranı, yaşını ya da konumunu istemiyor. Ajans ve menajer adı serbest metin; oraya istediğini yazabilirsin — istersen kendi adını da. Ne yazarsan yaz, kaydın geri kalanı gibi cihazında kalıyor.</li>
-      <li><strong>Her yuvanın küçük bir özeti,</strong> ana menü kariyerlerini tam kaydı yüklemeden listeleyebilsin diye.</li>
-      <li><strong>Cihaz tercihleri:</strong> seçtiğin arayüz teması, dilin (Türkçe ya da İngilizce) ve ses efektlerinin açık olup olmadığı.</li>
-    </ul>
-    <p>Bunların hepsi aynı yerde tutulmuyor:</p>
-    <ul>
-      <li><strong>Kariyer kayıtları ve yuva özetleri</strong> uygulamanın kendi IndexedDB veritabanında duruyor. Cihazında IndexedDB kullanılamıyorsa oyun bunları yerel depolamada (localStorage) tutuyor.</li>
-      <li><strong>Tema, dil ve ses tercihlerin</strong> ise her zaman doğrudan yerel depolamada tutuluyor. Bunlar IndexedDB'de değil ve bu bir geri düşüş de değil — tercihlerin olağan yeri yerel depolama.</li>
-    </ul>
-    <p>İkisi de uygulamanın kendi depolama alanının içinde. Android, kurulu her uygulamaya başka uygulamaların olağan yollarla erişemediği kendi depolama alanını veriyor; bu, platformun normal uygulama yalıtımı — oyunun üstüne eklediği ayrı bir koruma değil.</p>
-    <p>Oyun reklam tanımlayıcısı kullanmıyor; seni uygulamalar ya da oturumlar arasında tanınır kılacak bir cihaz kimliği ya da başka bir tanımlayıcı da üretmiyor, saklamıyor.</p>
-
-    <h2 id="yapilmayan">Oyunun yapmadıkları</h2>
-    <ul>
-      <li>Senden hesap açmanı ya da giriş yapmanı <strong>istemiyor</strong>.</li>
-      <li>Kayıtlarını, ayarlarını ya da başka bir veriyi kendiliğinden geliştiriciye veya herhangi bir sunucuya <strong>göndermiyor</strong>. Sen e-postayla göndermedikçe geliştiriciye hiçbir şey ulaşmıyor.</li>
-      <li>Bulut kaydı ve cihazlar arası eşitleme <strong>yok</strong>.</li>
-      <li>İçinde analitik veya çökme raporlama SDK'sı <strong>yok</strong>; reklam SDK'sı da <strong>yok</strong>.</li>
-      <li>Çok oyunculu mod, sohbet, skor tablosu ya da başka bir çevrimiçi özellik <strong>yok</strong>.</li>
-      <li>Rehberine, fotoğraflarına, dosyalarına, kameraya, mikrofona ya da konumuna erişim <strong>istemiyor</strong>.</li>
-      <li>Uygulama içi satın alma <strong>içermiyor</strong>.</li>
+      <li><strong>Kariyer kayıtların.</strong> En fazla üç kariyer yuvası. Bir kayıt, oyun dünyasını ve o dünyadaki ilerlemeni içeriyor: yazdığın ajans ve menajer adı, müşterilerin, paran, itibarın, keşfettiğin ligler, maç geçmişi ve oyun içi mesajlar. Uygulama senden gerçek adını, e-posta adresini, telefon numaranı ya da konumunu hiçbir zaman istemiyor. Ajans ve menajer adı serbest metin; oraya ne yazarsan yaz, kaydın geri kalanı gibi cihazında kalıyor.</li>
+      <li><strong>Ayarların.</strong> Tema, dil ve ses tercihin.</li>
+      <li><strong>Doğum yılın — yalnız paylaşırsan.</strong> Ödüllü reklamı açabilmek için doğum yılını soruyoruz. Yalnız yıl saklanıyor; ay ve gün istenmiyor. Paylaşmazsan hiçbir şey yazılmıyor ve oyun aynen çalışıyor. Bu bilgi kariyer kaydına girmiyor, cihaz tercihlerinde duruyor — bir kariyeri silmek onu silmiyor. Geliştiriciye gönderilmiyor ve reklam isteklerine eklenmiyor.</li>
+      <li><strong>Günlük ödül kaydın.</strong> Hangi kariyerin bugünkü reklam ödülünü kullandığı ve bir gösterimin yarıda kalıp kalmadığı burada tutuluyor. Aynı ödülün iki kez yazılmaması için var.</li>
+      <li><strong>Yerel kimlikler.</strong> Her kariyere, oluşturulduğu anda rastgele üretilen bir kimlik veriliyor; her ödül isteği için de rastgele bir işlem numarası üretiliyor. Bunlar kariyer ve ödül kayıtlarını birbiriyle eşleştirmek için kullanılıyor. Uygulamalar arası takip amacıyla üretilmiyorlar, reklam isteklerine eklenmiyorlar ve geliştiriciye gönderilmiyorlar. Kayıtların bir parçası oldukları için, Android yedeklemesi açıksa yedeğe girebiliyorlar.</li>
     </ul>
 
-    <h2 id="internet">Uygulama neden internet izni bildiriyor?</h2>
-    <p>Uygulama, standart Android <code>INTERNET</code> iznini bildiriyor. Bu, oyunun üzerine kurulduğu uygulama çatısının varsayılanı ve oyun bu izni kullanmıyor: oyun kodunda herhangi bir dış adrese giden istek yok. Oyunun gösterdiği her şey, kurulu uygulamanın içinde geliyor.</p>
-    <p>Oyunda çevrimdışı önbellekleme için bir service worker da bulunuyor; bu yalnızca uygulamanın kendi paketlenmiş dosyalarını istiyor ve Android uygulamasında hiç çalışmıyor — sadece oyun bir web tarayıcısında açıldığında devreye giriyor.</p>
-    <p>İleride bir sürüm ağ isteği yaparsa, o sürüm yayımlanmadan önce bu bölüm düzeltilecek.</p>
+    <h2 id="yapilmayan">Oyunun kendiliğinden yapmadıkları</h2>
+    <ul>
+      <li>Oyun, kayıtlarını, ayarlarını ya da yazdığın hiçbir metni geliştiriciye veya başka bir sunucuya <strong>göndermiyor</strong>.</li>
+      <li>Oyunun kendi analitiği, çökme raporlaması ya da kullanım izleme kodu <strong>yok</strong>.</li>
+      <li>Oyun içinde satın alma <strong>yok</strong>, gerçek parayla ödeme <strong>yok</strong>.</li>
+      <li>Otomatik açılan reklam, banner ve geçiş reklamı <strong>yok</strong>. Reklam yalnız sen istediğinde ve tek bir yerden açılıyor.</li>
+      <li>Oyun kendi kayıtlarını bulut hesabına senkronlamıyor. Yedekleme yalnız Android'in kendi özelliği üzerinden olabiliyor; aşağıda anlatılıyor.</li>
+    </ul>
+
+    <h2 id="acilis">Açılışta ne oluyor</h2>
+    <p>Aşağıdaki adımlar <strong>yalnız doğum yılını paylaştıysan ve beyanın reklam yaş eşiğini karşılıyorsa</strong> işliyor. Paylaşmadıysan ya da eşiğin altındaysan uygulama reklam yolunu <strong>kendiliğinden başlatmıyor</strong>: açılışta izin bilgin okunmuyor, izin ekranı denenmiyor ve reklam kütüphanesi başlatılmıyor.</p>
+    <p>Bunun sınırını olduğu gibi yazmak gerekiyor. Bir test cihazında ölçüm yapıldı ve doğrulanan şu: doğum yılı paylaşılmamışken uygulama, reklam bileşenine hiçbir çağrı yapmadı ve kayıtlarda hiçbir reklam adresine bağlantı görünmedi.</p>
+    <p>Buna karşılık uygulama ilk kez açıldığında, reklam yolu kapalı olduğu hâlde uygulamanın hesabına yazılan bir miktar ağ trafiği ölçüldü. <strong>Bu trafiği neyin ürettiği belirlenmedi.</strong> Aynı cihazda sonraki bir açılışta, yine reklam yolu kapalıyken, gözlem süresi boyunca hiç trafik ölçülmedi. Reklam kütüphanesi cihaza uygulamayla birlikte kuruluyor ve kendi başlangıç bileşenini taşıyor; ölçülen trafiğin kaynağının o bileşen mi, uygulamanın içindeki tarayıcı bileşeni mi, başka bir şey mi olduğu saptanmadı.</p>
+    <p>Bu yüzden "reklam yolu kapalıyken hiçbir ağ bağlantısı kurulmaz" demiyoruz. Söylediğimiz şey daha dar: reklam yolunu uygulama kendiliğinden başlatmıyor.</p>
+    <p>Beyanın eşiği karşılıyorsa, uygulamayı her açtığında menü çizildikten sonra arka planda şunlar oluyor:</p>
+    <ol>
+      <li>Uygulama, Google'ın reklam izni aracına bağlanıp izin bilgini tazeliyor.</li>
+      <li>Bulunduğun bölge için bir izin ekranı gerekiyorsa, o ekranı Google'ın aracı çiziyor. Ne sorulduğuna ve hangi seçeneklerin sunulduğuna Google'ın aracı karar veriyor; oyun bunun içeriğini belirlemiyor.</li>
+      <li>Sonuç reklam isteğine uygun çıkarsa, Google'ın reklam kütüphanesi başlatılıyor. Bu başlatma da Google'a bağlanıyor.</li>
+      <li>Sonuç uygun çıkmazsa reklam kütüphanesi hiç başlatılmıyor ve oyunda reklam satırı görünmüyor.</li>
+    </ol>
+    <p>Bu adımlar, <strong>reklam düğmesine hiç dokunmasan da</strong> çalışıyor. Menü, kayıtların ve oyunun geri kalanı bu akışı beklemiyor: cihaz çevrimdışıysa akış tamamlanmıyor, oyun normal hızında açılıyor ve yalnız reklam satırı görünmüyor.</p>
+    <p>İzin akışının sonucu tek bir şeyi belirliyor: reklam istenip istenemeyeceğini. Bu sonuç, hangi verinin gerçekten toplandığının ölçüsü değil.</p>
+    <p>Gizlilik seçenekleri bundan ayrı bir yol. Ayarlar'daki satıra <strong>sen</strong> dokunduğunda, doğum yılını paylaşmamış ya da silmiş olsan bile Google'ın izin aracına bağlanılıyor: daha önce verdiğin izni yönetebilmen için güncel bilgi gerekiyor. Bu bağlantı senin dokunuşunla başlıyor, açılışta değil, ve reklam kütüphanesini başlatmıyor.</p>
+
+    <h2 id="reklam">Reklamı sen başlatıyorsun</h2>
+    <p>Kariyer ekranında bir "Reklam izle" satırı var. Doğum yılını henüz paylaşmadıysan bu satır seni beyan ekranına götürüyor; ödül tutarı orada yazmıyor ve ekranda hangi cevabın özelliği açacağı söylenmiyor. Paylaşmadan devam edebilirsin. Beyanın eşiğin altındaysa satır bunu nötr biçimde belirtiyor ve seni cevabını değiştirmeye çağırmıyor.</p>
+    <p>Beyanın eşiği karşılıyorsa satır bundan sonra reklam tarafına bakıyor: cihazda reklam bileşeni başlatılmamışsa ya da izin sonucu reklam isteğine uygun değilse <strong>hiç çizilmiyor</strong>. Günün hakkı kullanılmışsa satır yerinde kalıyor ve hakkın kullanıldığını, yarın yeniden açılacağını yazıyor.</p>
+    <ul>
+      <li>Reklam <strong>yalnızca</strong> o satıra dokunduğunda açılıyor.</li>
+      <li>Hak <strong>her kariyer için ayrı</strong> ve <strong>günde bir kez</strong>. Gün, cihazının yerel takvimine göre hesaplanıyor; yerel gün döndüğünde hak yenileniyor. İki kariyerin hakkı birbirini tüketmiyor.</li>
+      <li>Ödül <strong>oyun içi para</strong>; gerçek para, hediye kartı ya da mağaza kredisi değil.</li>
+    </ul>
+    <p>Ödül, reklam bileşeninin <strong>ödül koşulunun karşılandığını bildirmesiyle</strong> yazılıyor. Bu bildirim, reklam ekranı kapanmadan önce de gelebilir — ödülü belirleyen şey ekranın kapanması değil, bu bildirim. Bildirim gelmezse ödül yazılmıyor ve o günün hakkı da kullanılmış sayılmıyor.</p>
+    <p>Bu sürümde Google'ın <strong>örnek (test) reklam kimlikleri</strong> kullanılıyor ve aracı reklam ağı (mediation) yok.</p>
+
+    <h2 id="google">Reklamlarla birlikte Google'a ne gidiyor</h2>
+    <p>Reklam tarafını Google yürütüyor ve bu veriler geliştiriciye ulaşmıyor. Google, uygulamada kullanılan reklam kütüphanesi sürümü için topladığı verileri kendisi yayımlıyor. Google'ın <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" rel="noopener noreferrer">kendi veri açıklamasına</a> göre bu kütüphane şunları topluyor ve paylaşıyor:</p>
+    <ul>
+      <li><strong>IP adresi</strong> — genel konumun tahmininde kullanılabiliyor.</li>
+      <li><strong>Uygulama ve reklam etkileşimleri</strong> — uygulama açılışı, dokunuşlar, video izlemeleri.</li>
+      <li><strong>Tanılama bilgisi</strong> — açılış süresi, takılma oranı, enerji kullanımı gibi başarım verileri.</li>
+      <li><strong>Cihaz ve hesap tanımlayıcıları</strong> — Android reklam kimliği, uygulama kümesi kimliği ve <strong>uygulanabildiği durumlarda</strong> cihazda oturum açılmış hesaplarla ilişkili diğer tanımlayıcılar.</li>
+    </ul>
+    <p>Google bu aktarımın taşıma katmanı güvenliğiyle şifrelendiğini belirtiyor. Yukarıdaki liste Google'ın kendi beyanı; geliştiricinin yaptığı bir ölçüm değil ve Google zaman içinde güncelleyebilir — güncel hâli her zaman <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" rel="noopener noreferrer">Google'ın veri açıklaması sayfasında</a>.</p>
+    <p>Google'ın uygulamalardan gelen bilgiyi genel olarak nasıl kullandığı <a href="https://policies.google.com/technologies/partner-sites" rel="noopener noreferrer">Google'ın hizmetlerini kullanan site ve uygulamalar sayfasında</a> ve <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Gizlilik Politikası</a> içinde anlatılıyor.</p>
+    <p>Uygulama, reklam kütüphanesinin gerektirdiği izinleri kurulumla birlikte bildiriyor; bunların arasında reklam kimliğine erişim de var. Cihazının uygulama bilgisi ekranındaki izin listesinde bunları görebilirsin.</p>
+
+    <h2 id="tercihler">Reklam tercihlerini denetlemek</h2>
+    <ul>
+      <li><strong>Uygulama içinden:</strong> Ayarlar bölümünde, Gizlilik Metni satırının yanında bir "Reklam gizlilik seçenekleri" satırı çıkıyor. Bu satır yalnızca Google'ın izin aracı senin bölgen için böyle bir giriş noktası gerektiğini söylediğinde görünüyor; dokunduğunda daha önce verdiğin izni gözden geçirip değiştirebiliyorsun. Bu yol doğum yılı beyanından <strong>bağımsız</strong>: beyanı hiç vermemiş ya da silmiş olsan da verdiğin izni buradan yönetebilirsin, çünkü beyanı silmek izni geri çekmek değil.</li>
+      <li><strong>Cihazından:</strong> Android'in reklam kimliğini sıfırlayabilir ve reklam kişiselleştirmesini kapatabilirsin. Google'ın <a href="https://support.google.com/googleplay/answer/3405269" rel="noopener noreferrer">reklam kimliği belgesine</a> göre yol Android 6.0 ve üzeri için Ayarlar → Google → Reklamlar; sürümüne göre adlandırma değişebiliyor.</li>
+      <li><strong>Google hesabından:</strong> Google'ın kendi reklam ayarları üzerinden kişiselleştirmeyi yönetebilirsin. Ayrıntısı <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Gizlilik Politikası</a> içinde.</li>
+    </ul>
+
+    <h2 id="internet">İnternet bağlantısı ne için kullanılıyor</h2>
+    <p>Uygulama internet iznini bildiriyor ve Android sürümünde bu izni gerçekten kullanıyor. Bilinen kullanımı iki iş: reklam izni akışı ve reklamlar. Buna karşılık uygulamanın toplam ağ kullanımını bu iki amaçla sınırlandırmıyoruz — ilk açılışta kaynağı belirlenemeyen bir miktar trafik de ölçüldü (<a href="#acilis">Açılışta ne oluyor</a>). Oyunun kendisi, oynanışın hiçbir noktasında dış bir adrese istek yapmıyor. Oyunun gösterdiği her şey kurulu uygulamanın içinden geliyor ve oyun tamamen çevrimdışı oynanabiliyor.</p>
+    <p>Ayarlar'daki Gizlilik Metni satırına dokunmak bir istisna değil, adres açmak: bağlantı cihazının tarayıcısına devrediliyor ve sayfayı tarayıcı yüklüyor. Oyun o sayfayı kendi içinde açmıyor.</p>
+    <p>Bu metin uygulamanın Android sürümünü anlatıyor. İzin akışı ve reklamlar, cihazdaki yerel reklam bileşeni üzerinden çalışıyor; oyun bir web tarayıcısında açıldığında bu bileşen bulunmadığı için ne izin sorgusu ne de reklam isteği yapılıyor. Tarayıcıda açılan sürümün sayfa ve dosya indirmeleri bundan ayrı bir konu.</p>
 
     <h2 id="yedekleme">Android yedeklemesi</h2>
-    <p>Uygulama, Android'in standart <em>Uygulamalar için Otomatik Yedekleme</em> özelliğine izin veriyor ve kendi dosyalarının hiçbirini bunun dışında tutmuyor. Yani Android ayarlarında cihaz yedeklemesi açıksa, işletim sistemin uygulamanın verilerini — kariyer kayıtların dâhil — kendi Google Drive hesabında sakladığı yedeğe dâhil edebilir ve yeni bir cihaz kurarken ya da cihazdan cihaza aktarım yaparken geri yükleyebilir.</p>
-    <p>Yedeğin gerçekten alınıp alınmadığına ve içine ne girdiğine uygulama değil Android karar veriyor: yedekleme ayarına, ağına ve platformun kendi koşullarına bağlı.</p>
-    <p>Yedeklemenin kendisini Android ve Google yapıyor; oyun ya da geliştirici değil ve geliştiricinin bu yedeğe erişimi yok. Android'in belgelerine göre Android 9 ve sonrasında bu yedek, cihazının ekran kilidi kullanılarak uçtan uca şifreleniyor — yani bu koruma, cihazında gerçekten bir PIN, desen ya da parola tanımlı olmasına bağlı. Özelliğin tamamının denetimi sende: cihaz ayarlarındaki Yedekleme bölümünden kapatabilirsin.</p>
-    <p>Google'ın bunu nasıl işlediğine dair ayrıntılar için Google'ın Android yedeklemesi belgelerine ve <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Gizlilik Politikası</a>'na bakabilirsin.</p>
+    <p>Uygulama, Android'in standart <strong>Uygulamalar için Otomatik Yedekleme</strong> özelliğine izin veriyor ve kendi dosyalarını bunun dışında tutmuyor. Cihazında yedekleme açıksa işletim sistemin, kariyer kayıtların dâhil uygulama verilerini Google Drive hesabındaki özel bir klasöre yedekleyebiliyor ve yeni cihaz kurarken geri yükleyebiliyor.</p>
+    <p>Google'ın <a href="https://developer.android.com/identity/data/autobackup" rel="noopener noreferrer">otomatik yedekleme belgesine</a> göre:</p>
+    <ul>
+      <li>Yedek uygulama başına 25 MB ile sınırlı ve kişisel Drive kotandan düşmüyor.</li>
+      <li>Yedekleme, cihaz boştayken, en az 24 saat geçmişken ve genellikle Wi-Fi bağlıyken çalışıyor.</li>
+      <li>Android 9 ve sonrasında yedek, cihazının ekran kilidi kullanılarak uçtan uca şifreleniyor — yani bu koruma, cihazında gerçekten bir PIN, desen ya da parola tanımlı olmasına bağlı.</li>
+      <li>Yedeği kullanıcılar ve diğer uygulamalar okuyamıyor.</li>
+    </ul>
+    <p>Yedeklemeyi yapan Android ve Google; oyun ya da geliştirici değil ve geliştiricinin bu yedeğe erişimi yok. Özelliğin denetimi sende: cihaz ayarlarındaki yedekleme bölümünden kapatabilirsin.</p>
 
     <h2 id="silme">Verilerini silmek</h2>
-    <p>Oyun verileri cihazında durduğu için silme işini kendin yapıyorsun. Aşağıdaki işlemlerin her biri, <strong>o cihazda</strong> tutulan veriyi siler:</p>
+    <p>Oyun verisi cihazında durduğu için silme işini sen yapıyorsun. Şunların her biri <strong>o cihazdaki</strong> veriyi siler:</p>
     <ul>
-      <li><strong>Tek bir kariyeri silmek:</strong> oyunda ana menüdeki yuva kartını aç ya da bir kariyerin içindeyken Ayarlar'a gir ve "Kariyeri sil" seçeneğini kullan. Bu, o kaydı cihazdan siler.</li>
-      <li><strong>Her şeyi silmek:</strong> Android ayarlarında Uygulamalar &rarr; Pro Football Agent &rarr; Depolama yolunu izleyip "Depolamayı temizle" / "Verileri temizle" seçeneğini kullan. Bu, bütün kayıtları ve tercihleri cihazdan siler.</li>
-      <li><strong>Uygulamayı kaldırmak</strong> da yerel verilerini cihazdan siler.</li>
+      <li><strong>Tek bir kariyeri silmek:</strong> ana menüdeki yuva kartından ya da kariyer içindeyken Ayarlar'dan "Kariyeri sil".</li>
+      <li><strong>Her şeyi silmek:</strong> Android ayarlarında Uygulamalar → Pro Football Agent → Depolama → "Depolamayı temizle".</li>
+      <li><strong>Doğum yılını silmek:</strong> Ayarlar'da doğum yılı satırından silebilir ya da değiştirebilirsin. Silmek reklam yolunu kapatır; verdiğin reklam iznini geri çekmez — onu gizlilik seçeneklerinden yönetirsin.</li>
+      <li><strong>Uygulamayı kaldırmak</strong> da yerel verini siler.</li>
     </ul>
-    <p>Bu işlemler yedek kopyalara ulaşmıyor. Android yedeklemesi açıksa, uygulamanın depolamasını temizledikten ya da uygulamayı kaldırdıktan sonra da Google Drive yedeğinde bir kopya durabilir. O kopyayı Google hesabın yönetiyor ve ayrıca siliniyor: cihazının yedekleme ayarlarından ya da Google Drive uygulamasından.</p>
-    <p>Geliştiricinin senin adına sileceği bir şey yok, çünkü geliştirici oyun verilerini zaten hiç almıyor. Destek e-postası bunun istisnası ve aşağıda kendi bölümünde anlatılıyor.</p>
+    <p>Bu işlemler <strong>yedek kopyalara ulaşmıyor.</strong> Android yedeklemesi açıksa, depolamayı temizledikten ya da uygulamayı kaldırdıktan sonra da Google Drive yedeğinde bir kopya durabilir. O kopyayı Google hesabın yönetiyor ve ayrıca siliniyor: cihazının yedekleme ayarlarından ya da Google Drive uygulamasından.</p>
+    <p>Reklamlarla birlikte Google'a giden veri de bu işlemlerden ayrı: onu Google tutuyor ve Google'ın kendi araçlarından yönetiliyor. Oyun kayıtlarının bir kopyası geliştiricide bulunmadığı için geliştiricinin senin adına silebileceği bir oyun verisi yok. Destek yazışmaların bundan ayrı: silinmesini aşağıdaki adrese yazarak isteyebilirsin. Uygulama yayımlandıktan sonra mağazaya bir yorum yazarsan, o yorumu Google Play üzerinden kendin düzenleyip silebilirsin.</p>
 
     <h2 id="saklama">Saklama</h2>
-    <p>Oyun verileri, sen sakladığın sürece cihazında duruyor. Geliştirici bunları saklamıyor; dolayısıyla oyun verileri için sunucu tarafında bir saklama süresi yok. Yukarıda anlatılan Android yedek kopyasının ne kadar saklanacağını Google ve kendi cihaz ayarların belirliyor. Geliştiricinin elinde duran tek şey destek e-postası; onun saklanması <a href="#destek">Destek e-postası yazarsan</a> bölümünde anlatılıyor.</p>
+    <p>Oyun verisi ve paylaştıysan doğum yılın, sen silene kadar cihazında duruyor; geliştiricide bir kopyası olmadığı için sunucu tarafında bir saklama süresi de yok. Android yedeğinin ne kadar duracağını Google ve cihaz ayarların belirliyor. Reklamlarla ilgili verinin saklanmasını Google belirliyor.</p>
+    <p>Geliştiricinin süresini kendisi belirlediği veri, destek yazışmaları. Onların süresi aşağıda.</p>
 
     <h2 id="destek">Destek e-postası yazarsan</h2>
     <p>Destek, düz bir e-posta adresi: <a href="mailto:xahkeee@gmail.com">xahkeee@gmail.com</a>. Oyunun iletişim formu yok ve senin adına hiçbir şey göndermiyor — bir e-posta ancak sen yazarsan var olur.</p>
     <p>Yazarsan, e-posta adresin ve mesajının içeriği geliştirici tarafından alınıp okunuyor. Buna posta hesabında göründüğü hâliyle adın ve mesaja koymayı seçtiğin her şey dâhil: sorunun tarifi, cihaz modelin, Android sürümün ya da eklediğin bir ekran görüntüsü. Paylaşmak istemeyeceğin bilgileri göndermemeni öneririz.</p>
     <p>Destek e-postaları yalnızca sana cevap vermek ve bildirdiğin sorunu çözmek için kullanılıyor. Pazarlama için kullanılmıyor ve üçüncü taraflara kendi amaçları için aktarılmıyor. Ancak mesajı yalnız geliştirici işlemiyor: posta kutusu bir Gmail hesabı, dolayısıyla Google e-posta sağlayıcısı olarak mesajını alıyor ve <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Gizlilik Politikası</a> kapsamında işliyor.</p>
-    <p>Destek mesajları otomatik olarak silinmiyor ve bunlara tanımlı bir saklama süresi uygulanmıyor. Elle silinene kadar posta kutusunda duruyorlar. Yazışmanın silinmesini aynı adrese yazarak isteyebilirsin. Bunun rutin olarak nasıl işleyeceği henüz netleştirilmedi; bu bölüm uygulama yayımlanmadan önce belirginleştirilecek.</p>
+    <p><strong>Saklama süresi:</strong> destek yazışmaları, talebin kapanmasından sonraki 30 gün içinde siliniyor — gelen mesaj, verilen yanıt ve varsa ekler birlikte. Yazışmanın daha erken silinmesini aynı adrese yazarak isteyebilirsin.</p>
+
+    <h2 id="raporlar">Geliştiricinin gördüğü raporlar</h2>
+    <p>Geliştirici oyundan doğrudan veri almıyor. Uygulama Google Play üzerinden yayımlandığında mağaza tarafında iki şey görünür hâle gelecek:</p>
+    <ul>
+      <li><strong>Mağaza istatistikleri.</strong> Kurulum, kaldırma, çökme ve derecelendirme gibi toplu sayılar; ülke, cihaz ve sürüm kırılımlarında. Bunlar toplu istatistikler ve tek tek kişilere ait kayıtlar içermiyor.</li>
+      <li><strong>Mağaza yorumları.</strong> Yorum metni, Play profilinde görünen adın, dil ve cihaz bilgisiyle birlikte görünüyor. Mağaza yorumu zaten herkese açık bir metin.</li>
+    </ul>
+    <p>Reklam tarafında ise uygulama şu anda Google'ın örnek (test) reklam kimliklerini kullanıyor. Google, <a href="https://developers.google.com/admob/android/test-ads" rel="noopener noreferrer">test reklamları belgesinde</a> test reklamlarına ait istek, gösterim ve tıklamaların hesap raporlarında görünmediğini belirtiyor; dolayısıyla bu sürümde geliştiricinin reklam hesabında bu uygulamaya ait bir rapor verisi oluşmuyor. Bu durum değişirse bu bölüm güncellenecek.</p>
+    <p>Destek e-postaları, kişisel bilginin geliştiriciye doğrudan ulaştığı tek yol ve yukarıda kendi bölümünde anlatıldı.</p>
+
+    <h2 id="haklar">Haklarını kullanmak</h2>
+    <p>Geliştiriciye <a href="mailto:xahkeee@gmail.com">xahkeee@gmail.com</a> adresinden yazarak destek yazışmanın bir kopyasını isteyebilir, yanlış bir bilginin düzeltilmesini ya da yazışmanın silinmesini talep edebilirsin. Verilerinle ilgili her soruyu da bu adrese iletebilirsin — sorunun yanıtı başka bir şirkete bakıyorsa, seni oraya yönlendirmek de geliştiricinin işi.</p>
+    <p>Geliştirici Türkiye'de bulunuyor. Türkiye'deki mevzuat, kişisel verisi işlenen kişiye verinin işlenip işlenmediğini öğrenme, bilgi isteme, düzeltme, silinmesini isteme ve aktarılan tarafları öğrenme gibi haklar tanıyor; başvurulara ilişkin süre ve Kişisel Verileri Koruma Kurulu'na şikâyet yolu <a href="https://www.kvkk.gov.tr/Icerik/2036/Ilgili-Kisinin-Haklari" rel="noopener noreferrer">Kurumun ilgili kişi hakları sayfasında</a> anlatılıyor.</p>
+    <p>Avrupa Birliği'nde yaşıyorsan, veri koruma mevzuatı bilgilendirilme, erişim, düzeltme, silme, işlemenin kısıtlanması ve veri taşınabilirliği gibi haklar tanıyor; hakların hangi koşullarda geçerli olduğu ve yanıt süreleri <a href="https://commission.europa.eu/law/law-topic/data-protection/information-individuals_en" rel="noopener noreferrer">Avrupa Komisyonu'nun bireyler için bilgi sayfasında</a> anlatılıyor. Birleşik Krallık'ta yaşıyorsan aynı haklar Birleşik Krallık mevzuatı altında düzenleniyor; yanıt süresi genellikle bir takvim ayı, karmaşık ya da birden çok talepte daha uzun olabiliyor — ayrıntısı <a href="https://ico.org.uk/for-the-public/time-limits-for-responding-to-data-protection-rights-requests/" rel="noopener noreferrer">ICO'nun yanıt süreleri sayfasında</a>, şikâyet yolu ise <a href="https://ico.org.uk/for-the-public/how-to-make-a-data-protection-complaint/" rel="noopener noreferrer">ICO'nun şikâyet sayfasında</a>.</p>
+    <p>Reklamlarla birlikte Google'a giden veriyi geliştirici tutmuyor ve ona erişemiyor. O veriyle ilgili taleplerini Google'ın gizlilik araçları üzerinden iletebilirsin; yollar <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Gizlilik Politikası</a> içinde anlatılıyor. Cihazındaki reklam kimliğini de yukarıda anlatıldığı gibi kendin sıfırlayabiliyorsun. Nereye başvuracağından emin değilsen yukarıdaki adrese yazabilirsin.</p>
+
+    <h2 id="yas">Yaş</h2>
+    <p>Pro Football Agent 13 yaş ve üzeri oyuncular için tasarlandı. Bu, geliştiricinin hedef kitleye dair kendi kararı.</p>
+    <p>Ödüllü reklamın kendi ayrı eşiği var: 18. Bu eşik oyunun hedef kitlesi değil, yalnız reklam yolunun açılıp açılmayacağını belirliyor. Eşiğin altındaki ya da doğum yılını paylaşmayan oyuncu oyunun tamamını, kariyerlerini ve kayıtlarını kullanmaya devam ediyor; yalnız reklam ve onun günlük ödülü kapalı kalıyor ve yerine başka bir kazanç konmuyor.</p>
+    <p>Beyan senin kendi bildiriminden ibaret; doğrulanmıyor. Yalnız yıl saklandığı için doğum gününün geçip geçmediği bilinmiyor ve küçük yaş kabul ediliyor — bu yüzden eşiğe ulaşman, doğum tarihine göre bir yıla kadar geç görülebilir.</p>
+    <p>Oyun, doğum yılı dışında hiçbir oyuncudan kişisel bilgi istemiyor ve bir oyuncuya dair hiçbir şeyi kendiliğinden geliştiriciye göndermiyor. Ebeveyn ya da vasi olarak oyunla ilgili bir sorun varsa — ya da gönderilmiş bir destek mesajının silinmesini istiyorsan — <a href="mailto:xahkeee@gmail.com">xahkeee@gmail.com</a> adresine yazabilirsin.</p>
 
     <h2 id="site">Bu web sitesi</h2>
     <p>Bu site, GitHub Pages üzerinde barındırılan durağan sayfalardan oluşuyor. Analitik yok, reklam yok, takip pikseli yok, çerez banner'ı yok, iletişim formu yok, üçüncü taraf font ya da betik yok. Site kendine ait çerez de yerleştirmiyor.</p>
     <p>Barındırıcı olarak GitHub, bir GitHub Pages sitesi ziyaret edildiğinde güvenlik amacıyla ziyaretçilerin IP adreslerini kaydediyor. Bu kayıt tutma GitHub'a ait, oyundan tamamen ayrı ve <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener noreferrer">GitHub Gizlilik Bildirimi</a> kapsamında. Geliştirici bu günlükleri almıyor.</p>
 
-    <h2 id="yas">Yaş</h2>
-    <p>Pro Football Agent, 13 yaş ve üzeri oyuncular için tasarlandı. Bu, geliştiricinin hedef kitleye dair kendi kararı; resmî bir mağaza yaş derecelendirmesi değil ve Google Play içerik derecelendirme anketi henüz doldurulmadı. Bu ifade bir niyeti anlatıyor; tek başına herhangi bir mevzuata uygunluğun tespiti değildir.</p>
-    <p>Oyun, hiçbir yaştan hiçbir oyuncudan kişisel bilgi istemiyor ve bir oyuncuya dair hiçbir şeyi kendiliğinden geliştiriciye göndermiyor. Geliştiriciye bilgi ulaşmasının tek yolu, birinin göndermeyi seçtiği destek e-postası; bir çocuk yazarsa geliştirici o mesajı diğerleri gibi görür. Ebeveyn ya da vasi olarak oyunla ilgili bir sorun varsa — ya da bir mesajın silinmesini istiyorsan — <a href="mailto:xahkeee@gmail.com">xahkeee@gmail.com</a> adresine yazabilirsin.</p>
-
-    <h2 id="gelecek">Planlanan değişiklikler</h2>
-    <p>Bu uygulama için bir AdMob hesabı açıldı, ancak <strong>şu anda oyuna hiçbir reklam SDK'sı ve rıza yönetim platformu (UMP) entegre edilmiş değil</strong>. Bu metnin anlattığı sürüm reklam göstermiyor ve içinde reklam kodu yok.</p>
-    <p>İleride reklam eklenirse uygulamanın davranışı değişecek: reklam SDK'ları tipik olarak cihaz ve reklam tanımlayıcıları gibi verileri topluyor ve bazı bölgelerde bunu yapabilmeleri için önce bir rıza akışı gerekiyor. Reklam içeren herhangi bir sürüm yayımlanmadan önce bu metin gerçek davranışı anlatacak biçimde yeniden yazılacak ve Google Play Veri güvenliği bildirimi güncellenecek. Bu sayfadaki hiçbir ifade, gelecekteki bir sürümün hiçbir zaman veri toplamayacağı sözü olarak okunmamalı.</p>
-
     <h2 id="degisiklikler">Bu metindeki değişiklikler</h2>
-    <p>Bu metin değiştiğinde, sayfanın başındaki "Son güncelleme" tarihi de değişir. Güncel sürüm her zaman şu adreste durur:<br>
+    <p>Bu metin değiştiğinde sayfanın başındaki "Son güncelleme" tarihi de değişir. Güncel sürüm her zaman şu adreste durur:<br>
       <a href="https://xahke.github.io/privacy/pro-football-agent/tr.html">https://xahke.github.io/privacy/pro-football-agent/tr.html</a></p>
+    <p>Uygulamanın reklam davranışı değişirse bu metin, o sürüm yayımlanmadan önce güncellenecek. Bugün örnek reklam kimlikleri kullanılıyor ve aracı reklam ağı yok; bunların değişip değişmeyeceği kararlaştırılmadı.</p>
 
     <h2 id="iletisim">İletişim</h2>
     <p>Bu metinle ya da verilerinle ilgili her soru için:

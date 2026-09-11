@@ -218,7 +218,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible,[tabindex]:focus-visi
 .legal h2{margin-top:34px;padding-top:6px}
 .legal h2:first-of-type{margin-top:22px}
 .legal h3{margin-top:22px;color:#fff}
-.legal ul{color:var(--muted)}
+.legal ul,.legal ol{color:var(--muted)}
 .legal li strong{color:var(--text)}
 .legal p{color:var(--muted)}
 .legal .meta{

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Privacy Policy — Pro Football Agent — Xahke</title>
-<meta name="description" content="Privacy policy for Pro Football Agent (com.xahke.profootballagent) by Xahke. What the game stores on your device, what it does not collect, and how to delete your data.">
+<meta name="description" content="Privacy policy for Pro Football Agent (com.xahke.profootballagent) by Xahke. What the game stores on your device, what goes to Google with the rewarded ad, the birth year declaration, and how to delete your data.">
 <meta name="theme-color" content="#0B111E">
 <link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/assets/img/pro-football-agent-icon-96.png">
@@ -47,94 +47,154 @@
       <b>App:</b> Pro Football Agent<br>
       <b>Package name:</b> com.xahke.profootballagent<br>
       <b>Contact:</b> <a href="mailto:xahkeee@gmail.com">xahkeee@gmail.com</a><br>
-      <b>Last updated:</b> 6 September 2026<br>
-      <b>Status:</b> Draft. The app has not been released yet.
+      <b>Last updated:</b> 12 September 2026<br>
+      <b>App status:</b> Not yet published on Google Play.
     </p>
 
     <div class="note">
-      <p><strong>Please read this first.</strong> This document describes what the current, unreleased build of Pro Football Agent does. It is published early so it can be reviewed before the app goes to Google Play. It will be reviewed and updated again before release, and in particular it must be rewritten if and when advertising is added to the game (see <a href="#future">Planned changes</a>).</p>
+      <p><strong>Read this first.</strong> This policy describes what the Android version of Pro Football Agent does today. The app has not been published on Google Play yet. The game itself runs offline and never sends your saves anywhere; separately from that, the app contains Google's advertising and ad-consent tools, and if you have shared a birth year that meets the ad age threshold, those connect to Google every time the app opens. These are two different things and they are described separately below.</p>
     </div>
 
     <h2 id="summary">Short version</h2>
-    <p>Pro Football Agent is a single-player game that runs entirely on your device. It has no accounts, no login and no server of its own. Everything you create in the game — your careers, your agency, your settings — is written to storage that belongs to the app on your phone, and the current version of the game does not send any of it anywhere.</p>
-    <p>The developer does not receive your game data. There is one way the developer does receive information from you, and it is one you start: if you write to the support address, your e-mail address and whatever you put in the message are received and read. That is described under <a href="#support">If you write to support</a>.</p>
+    <p>Pro Football Agent is a single-player football agent game. There is no account, no sign-in, and the developer runs no server for it. Your careers, your agency name and your settings are written to the app's own storage on your phone.</p>
+    <p>Three separate things follow, and they should not be merged. <strong>First:</strong> the game does not send your saves or anything you typed to the developer or anywhere else. <strong>Second:</strong> if you write to us, your support message and your email address reach the developer. <strong>Third:</strong> when the app is published through Google Play, the store's own reports and the reviews written on the store will be visible to the developer. As for the rewarded ad in the app, you start it yourself and get in-game money back; the advertising is run by Google, so ad-related data goes to Google rather than to the developer.</p>
 
     <h2 id="collect">What the game stores on your device</h2>
-    <p>The game writes the following to its own private app storage on your device:</p>
+    <p>The following is kept on your phone, in the app's own storage. The game sends none of it anywhere; however, if Android backup is enabled on your device, your operating system can include this data in a backup — that is done by Android, not by the game, and is described under <a href="#backup">Android backup</a>.</p>
     <ul>
-      <li><strong>Career saves.</strong> Up to three career slots. A save contains the game world and your progress in it: the agency name and agent name you typed in, your clients, your money and reputation, the leagues you have scouted, match history and in-game messages. The app never asks you for your real name, e-mail address, phone number, age or location. The agency and agent names are free text, so you can type anything there — including your own name if you want to. Whatever you type stays on your device like the rest of the save.</li>
-      <li><strong>A small summary of each save slot,</strong> so the main menu can list your careers without loading a full save.</li>
-      <li><strong>Device preferences:</strong> your chosen interface theme, your language (Turkish or English) and whether sound effects are on.</li>
-    </ul>
-    <p>These are not all kept in the same place:</p>
-    <ul>
-      <li><strong>Career saves and the slot summaries</strong> are kept in the app's own IndexedDB database. If IndexedDB is unavailable on your device, the game keeps them in local storage instead.</li>
-      <li><strong>Your theme, language and sound preferences</strong> are always kept in local storage, directly. They are not in IndexedDB, and this is not a fallback — local storage is where they normally live.</li>
-    </ul>
-    <p>Both of these live inside the app's own storage area. Android gives each installed app its own storage that other apps do not have ordinary access to; this is the platform's normal app isolation, not a protection the game adds on top.</p>
-    <p>The game does not use advertising identifiers, and it does not generate or store a device ID or any other identifier that would let you be recognised across apps or sessions.</p>
-
-    <h2 id="not-collect">What the game does not do</h2>
-    <ul>
-      <li>It does <strong>not</strong> ask you to create an account or sign in.</li>
-      <li>It does <strong>not</strong> send your saves, settings or any other data to the developer or to any server on its own. Nothing reaches the developer unless you send it yourself by e-mail.</li>
-      <li>It has <strong>no</strong> cloud save and <strong>no</strong> synchronisation between devices.</li>
-      <li>It contains <strong>no</strong> analytics or crash-reporting SDK, and <strong>no</strong> advertising SDK.</li>
-      <li>It has <strong>no</strong> multiplayer, chat, leaderboard or any other online feature.</li>
-      <li>It does <strong>not</strong> request access to your contacts, photos, files, camera, microphone or location.</li>
-      <li>It does <strong>not</strong> contain in-app purchases.</li>
+      <li><strong>Your career saves.</strong> Up to three career slots. A save holds the game world and your progress in it: the agency and manager name you typed, your clients, your money, your reputation, the leagues you have discovered, match history and in-game messages. The app never asks for your real name, email address, phone number or location. The agency and manager name is free text; whatever you type there stays on your device like the rest of the save.</li>
+      <li><strong>Your settings.</strong> Theme, language and sound preference.</li>
+      <li><strong>Your birth year — only if you share it.</strong> We ask for your birth year before the rewarded ad can be opened. Only the year is stored; the month and day are not asked for. If you do not share it, nothing is written and the game works exactly the same. It is not part of a career save but of your device preferences — deleting a career does not delete it. It is not sent to the developer and is not attached to ad requests.</li>
+      <li><strong>Your daily reward record.</strong> Which career used today's ad reward, and whether a showing was interrupted. It exists so the same reward is never credited twice.</li>
+      <li><strong>Local identifiers.</strong> Each career gets a randomly generated identifier when it is created, and each reward request gets a randomly generated transaction number. They are used to match career records and reward records to each other. They are not generated for the purpose of tracking across apps, they are not attached to ad requests, and they are not sent to the developer. Because they are part of your saves, they can be included in an Android backup if backup is enabled.</li>
     </ul>
 
-    <h2 id="internet">Why the app declares the internet permission</h2>
-    <p>The app declares the standard Android <code>INTERNET</code> permission. This is a default of the app framework the game is built with, and the game does not make use of it: the game code contains no request to any external address. Everything the game displays is bundled inside the installed app.</p>
-    <p>The game also ships a service worker for offline caching, which only ever requests the app's own bundled files and is not active in the Android app at all — it is only used when the game runs in a web browser.</p>
-    <p>If a future version does make network requests, this section will be corrected before that version is released.</p>
+    <h2 id="not-collect">What the game does not do on its own</h2>
+    <ul>
+      <li>The game does <strong>not</strong> send your saves, your settings or anything you typed to the developer or to any server.</li>
+      <li>The game has <strong>no</strong> analytics, crash reporting or usage tracking of its own.</li>
+      <li>There are <strong>no</strong> in-app purchases and no real-money payments.</li>
+      <li>There are <strong>no</strong> automatic, banner or interstitial ads. An ad opens only when you ask for one, from a single place.</li>
+      <li>The game does not sync your saves to a cloud account. Backup can only happen through Android's own feature, described below.</li>
+    </ul>
+
+    <h2 id="startup">What happens when the app opens</h2>
+    <p>The steps below run <strong>only if you have shared your birth year and your declaration meets the ad age threshold</strong>. If you have not shared it, or it is below the threshold, the app <strong>does not start the ad path on its own</strong>: at startup your consent information is not read, no consent screen is attempted, and the advertising library is not initialised.</p>
+    <p>The limit of that statement belongs here too. Measurements were taken on a test device, and what was verified is this: with no birth year shared, the app made no call to the advertising component, and no connection to any advertising address appeared in the logs.</p>
+    <p>On the other hand, when the app was opened for the first time, some network traffic was recorded against the app's own account even though the ad path was closed. <strong>What produced that traffic was not determined.</strong> On a later launch on the same device, again with the ad path closed, no traffic was measured during the observation window. The advertising library is installed on the device together with the app and carries its own startup component; whether the measured traffic came from that component, from the browser component inside the app, or from something else was not established.</p>
+    <p>So we do not claim that "no network connection is made while the ad path is closed". What we say is narrower: the app does not start the ad path on its own.</p>
+    <p>If your declaration meets the threshold, then every time you open the app, the menu is drawn first and then these steps run in the background:</p>
+    <ol>
+      <li>The app connects to Google's ad-consent tool and refreshes your consent information.</li>
+      <li>If a consent screen is required for your region, Google's tool draws it. What is asked and which options are offered is decided by Google's tool; the game does not control that content.</li>
+      <li>If the result allows ad requests, Google's advertising library is started. Starting it also connects to Google.</li>
+      <li>If the result does not allow ad requests, the advertising library is never started and no ad row appears in the game.</li>
+    </ol>
+    <p>These steps run <strong>even if you never tap the ad button.</strong> The menu, your saves and the rest of the game do not wait for this flow: if your device is offline the flow does not complete, the game still opens at normal speed, and only the ad row is missing.</p>
+    <p>The result of the consent flow determines one thing: whether an ad may be requested. It is not a measurement of what data was actually collected.</p>
+    <p>Ad privacy options are a separate path. When <strong>you</strong> tap that row in Settings, Google's consent tool is contacted even if you never shared a birth year or have deleted it: managing the consent you gave earlier needs current information. That connection starts from your tap, not at startup, and it does not initialise the advertising library.</p>
+
+    <h2 id="ad">You start the ad yourself</h2>
+    <p>There is a "Watch an ad" row on the career screen. If you have not shared your birth year yet, that row takes you to the declaration screen; the reward amount is not shown there, and the screen does not tell you which answer opens the feature. You can continue without sharing. If your declaration is below the threshold, the row says so neutrally and does not invite you to change your answer.</p>
+    <p>If your declaration meets the threshold, the row then looks at the advertising side: it is <strong>not drawn at all</strong> if the advertising component has not been started on the device, or if the consent result does not allow ad requests. If the day's reward has been used, the row stays where it is and says that it has been used and will open again tomorrow.</p>
+    <ul>
+      <li>An ad opens <strong>only</strong> when you tap that row.</li>
+      <li>The reward is <strong>separate for each career</strong> and available <strong>once a day</strong>. The day is calculated from your device's local calendar; when the local day turns over, the reward becomes available again. Two careers do not consume each other's reward.</li>
+      <li>The reward is <strong>in-game money</strong> — not real money, not a gift card, not store credit.</li>
+    </ul>
+    <p>The reward is credited when the advertising component <strong>reports that the reward condition has been met</strong>. That report can arrive before the ad screen closes — what determines the reward is the report, not the screen closing. If no such report arrives, no reward is credited and the day's reward is not treated as used.</p>
+    <p>This version uses Google's <strong>sample (test) ad identifiers</strong> and no ad mediation network.</p>
+
+    <h2 id="google">What goes to Google with the ads</h2>
+    <p>The advertising side is run by Google and that data does not reach the developer. Google publishes its own account of what the advertising library collects for the version used in this app. According to <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" rel="noopener noreferrer">Google's own data disclosure</a>, the library collects and shares:</p>
+    <ul>
+      <li><strong>IP address</strong> — which may be used to estimate your general location.</li>
+      <li><strong>App and ad interactions</strong> — app launches, taps, video views.</li>
+      <li><strong>Diagnostic information</strong> — performance data such as launch time, hang rate and energy usage.</li>
+      <li><strong>Device and account identifiers</strong> — the Android advertising ID, the app set ID, and, <strong>if applicable</strong>, other identifiers related to signed-in accounts on the device.</li>
+    </ul>
+    <p>Google states that this data is encrypted in transit using Transport Layer Security. The list above is Google's own statement, not a measurement made by the developer, and Google may update it over time — the current version is always on <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" rel="noopener noreferrer">Google's data disclosure page</a>.</p>
+    <p>How Google generally uses information coming from apps is described on <a href="https://policies.google.com/technologies/partner-sites" rel="noopener noreferrer">Google's page about sites and apps that use its services</a> and in the <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Privacy Policy</a>.</p>
+    <p>The app declares the permissions the advertising library requires as part of its installation, including access to the advertising ID. You can see them in the permission list on your device's app info screen.</p>
+
+    <h2 id="ad-controls">Controlling your ad preferences</h2>
+    <ul>
+      <li><strong>From inside the app:</strong> in Settings, next to the Privacy Policy row, an "Ad privacy options" row appears. It is shown only when Google's consent tool says such an entry point is required for your region; tapping it lets you review and change the consent you gave earlier. This path is <strong>independent</strong> of the birth-year declaration: you can manage the consent you gave even if you never shared a birth year or have deleted it, because deleting the declaration is not withdrawing consent.</li>
+      <li><strong>From your device:</strong> you can reset Android's advertising ID and turn off ad personalization. According to <a href="https://support.google.com/googleplay/answer/3405269" rel="noopener noreferrer">Google's advertising ID documentation</a>, the path on Android 6.0 and above is Settings → Google → Ads; the naming can differ by version.</li>
+      <li><strong>From your Google account:</strong> you can manage personalization through Google's own ad settings. Details are in the <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Privacy Policy</a>.</li>
+    </ul>
+
+    <h2 id="internet">What the internet connection is used for</h2>
+    <p>The app declares the internet permission and, on Android, genuinely uses it. The uses we know of are two: the ad consent flow and the ads. We do not, however, limit the app's total network usage to those two — at first launch some traffic of undetermined origin was also measured (<a href="#startup">What happens when the app opens</a>). The game itself makes no request to any external address at any point during play. Everything the game displays comes from inside the installed app, and the game is fully playable offline.</p>
+    <p>Tapping the Privacy Policy row in Settings is not an exception but an address: the link is handed to your device's browser and the browser loads the page. The game does not open that page inside itself.</p>
+    <p>This policy describes the Android version of the app. The consent flow and the ads run through the native advertising component on the device; when the game is opened in a web browser that component is not present, so no consent request and no ad request is made. Page and file downloads by the browser version are a separate matter.</p>
 
     <h2 id="backup">Android backup</h2>
-    <p>The app allows Android's standard <em>Auto Backup for Apps</em>, and it does not exclude any of its own files from it. So if you have device backup switched on in your Android settings, your operating system may include the app's data — including your career saves — in the backup it stores in your own Google Drive account, and may restore it when you set up a new device or transfer data device to device.</p>
-    <p>Whether a backup is actually made, and what ends up inside it, is decided by Android, not by the app: it depends on your backup setting, your network and the platform's own conditions.</p>
-    <p>The backup itself is performed by Android and Google, not by the game and not by the developer, and the developer has no access to it. Android documents that on Android 9 and later this backup is end-to-end encrypted using your device's screen lock — that protection depends on your device actually having a PIN, pattern or password set. You control the whole feature in your device settings, under Backup, where you can turn it off.</p>
-    <p>For details of how Google handles it, see Google's own documentation on Android backup and the <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Privacy Policy</a>.</p>
+    <p>The app allows Android's standard <strong>Auto Backup for Apps</strong> feature and does not exclude its own files from it. If backup is enabled on your device, your operating system can back up the app's data — including your career saves — to a private folder in your Google Drive account, and restore it when you set up a new device.</p>
+    <p>According to <a href="https://developer.android.com/identity/data/autobackup" rel="noopener noreferrer">Google's Auto Backup documentation</a>:</p>
+    <ul>
+      <li>The backup is limited to 25 MB per app and does not count against your personal Drive quota.</li>
+      <li>Backups run when the device is idle, at least 24 hours have passed, and normally while connected to Wi-Fi.</li>
+      <li>On Android 9 and later the backup is end-to-end encrypted using your device's screen lock — meaning this protection depends on your device actually having a PIN, pattern or password set.</li>
+      <li>The backup cannot be read by users or by other apps.</li>
+    </ul>
+    <p>The backup is performed by Android and Google, not by the game or the developer, and the developer has no access to it. The feature is entirely under your control: you can turn it off in your device's backup settings.</p>
 
     <h2 id="delete">Deleting your data</h2>
-    <p>Game data stays on your device, so you delete it yourself. Each of the actions below removes the data held <strong>on that device</strong>:</p>
+    <p>Because game data lives on your device, you do the deleting. Each of the following removes the data held <strong>on that device</strong>:</p>
     <ul>
-      <li><strong>Delete one career:</strong> in the game, open a career slot's card in the main menu, or go to Settings inside a career, and use "Delete career". This removes that save from the device.</li>
-      <li><strong>Delete everything:</strong> in Android settings, go to Apps &rarr; Pro Football Agent &rarr; Storage and choose "Clear storage" / "Clear data". This removes all saves and preferences from the device.</li>
-      <li><strong>Uninstalling the app</strong> also removes its local data from the device.</li>
+      <li><strong>Delete a single career:</strong> from the slot card in the main menu, or from Settings inside a career with "Delete career".</li>
+      <li><strong>Delete everything:</strong> in Android settings, Apps → Pro Football Agent → Storage → "Clear storage".</li>
+      <li><strong>Delete your birth year:</strong> you can delete or change it from the birth year row in Settings. Deleting it closes the ad path; it does not withdraw the advertising consent you gave — you manage that from the ad privacy options.</li>
+      <li><strong>Uninstalling the app</strong> also removes your local data.</li>
     </ul>
-    <p>These actions do not reach backup copies. If you have Android backup enabled, a copy of the app's data may still exist in your Google Drive backup after you clear the app's storage or uninstall it. That copy is managed by your Google account and is removed separately, through your device's backup settings or the Google Drive app.</p>
-    <p>There is nothing for the developer to delete on your behalf, because the developer never receives your game data in the first place. Support e-mail is the exception, and it is covered in its own section below.</p>
+    <p>These actions <strong>do not reach backup copies.</strong> If Android backup is enabled, a copy may remain in your Google Drive backup after you clear storage or uninstall. That copy is managed by your Google account and is deleted separately: from your device's backup settings or from the Google Drive app.</p>
+    <p>The data that goes to Google with the ads is separate from all of this: Google holds it and it is managed through Google's own tools. Because no copy of your game saves exists with the developer, there is no game data the developer can delete on your behalf. Your support correspondence is separate: you can ask for it to be deleted by writing to the address below. If you write a review on the store after the app is published, you can edit or delete that review yourself through Google Play.</p>
 
     <h2 id="retention">Retention</h2>
-    <p>Game data is kept on your device for as long as you keep it. The developer does not store it, so there is no server-side retention period for game data. Retention of the Android backup copy described above is determined by Google and by your own device settings. Support e-mail is the one thing the developer does hold, and its retention is described under <a href="#support">If you write to support</a>.</p>
+    <p>Game data, and your birth year if you shared it, stay on your device until you delete them; since the developer holds no copy, there is no server-side retention period for them. How long the Android backup is kept is determined by Google and your device settings. Retention of ad-related data is determined by Google.</p>
+    <p>The data whose retention period the developer sets is support correspondence. Its period is below.</p>
 
     <h2 id="support">If you write to support</h2>
-    <p>Support is a plain e-mail address: <a href="mailto:xahkeee@gmail.com">xahkeee@gmail.com</a>. The game does not have a contact form and does not send anything on your behalf — an e-mail only exists if you write it.</p>
-    <p>If you do write, your e-mail address and the content of your message are received and read by the developer. That includes your name as it appears in your mail account and anything else you choose to put in the message — a description of a problem, your device model, your Android version, a screenshot you attach. Please do not send information you would rather not share.</p>
-    <p>Support mail is used only to answer you and to fix the problem you reported. It is not used for marketing and it is not passed on to any third party for their own purposes. It is not, however, handled by the developer alone: the mailbox is a Gmail account, so Google receives and processes your message as the e-mail provider, under the <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Privacy Policy</a>.</p>
-    <p>Support messages are not deleted automatically, and no fixed retention period applies to them. They stay in the mailbox until they are deleted by hand. You can ask for your correspondence to be deleted by writing to the same address. How this is handled routinely has not been settled yet, and this section will be made specific before the app is released.</p>
+    <p>Support is a plain email address: <a href="mailto:xahkeee@gmail.com">xahkeee@gmail.com</a>. The game has no contact form and sends nothing on your behalf — an email exists only if you write one.</p>
+    <p>If you write, your email address and the contents of your message are received and read by the developer. That includes your name as it appears in your mail account and anything you choose to put in the message: a description of the problem, your device model, your Android version, or a screenshot you attach. We suggest you do not send information you would not want to share.</p>
+    <p>Support emails are used only to reply to you and to resolve the problem you reported. They are not used for marketing and are not passed to third parties for their own purposes. The developer is not the only party processing the message, though: the mailbox is a Gmail account, so Google receives your message as the email provider and processes it under the <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Privacy Policy</a>.</p>
+    <p><strong>Retention period:</strong> support correspondence is deleted within 30 days after the request is closed — the incoming message, the reply and any attachments together. You can ask for it to be deleted sooner by writing to the same address.</p>
 
-    <h2 id="website">This website</h2>
-    <p>This site is a set of static pages hosted on GitHub Pages. It has no analytics, no advertising, no tracking pixels, no cookie banner, no contact form and no third-party fonts or scripts. It sets no cookies of its own.</p>
-    <p>GitHub, as the host, logs visitors' IP addresses for security purposes when a GitHub Pages site is visited. That logging is GitHub's, is entirely separate from the game, and is covered by the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener noreferrer">GitHub Privacy Statement</a>. The developer does not receive those logs.</p>
+    <h2 id="reports">What the developer sees in reports</h2>
+    <p>The developer receives no data directly from the game. When the app is published through Google Play, two things will become visible on the store side:</p>
+    <ul>
+      <li><strong>Store statistics.</strong> Aggregate figures such as installs, uninstalls, crashes and ratings, broken down by country, device and app version. These are aggregate statistics and contain no records about individual people.</li>
+      <li><strong>Store reviews.</strong> The review text, along with the name shown on your Play profile, plus language and device information. A store review is public text to begin with.</li>
+    </ul>
+    <p>On the advertising side, the app currently uses Google's sample (test) ad identifiers. In its <a href="https://developers.google.com/admob/android/test-ads" rel="noopener noreferrer">test ads documentation</a>, Google states that requests, impressions and clicks on test ads do not appear in an account's reports; so in this version no report data about this app accumulates in the developer's ad account. If that changes, this section will be updated.</p>
+    <p>Support emails are the only route by which personal information reaches the developer directly, and they are described in their own section above.</p>
+
+    <h2 id="rights">Exercising your rights</h2>
+    <p>By writing to the developer at <a href="mailto:xahkeee@gmail.com">xahkeee@gmail.com</a> you can ask for a copy of your support correspondence, ask for incorrect information to be corrected, or ask for it to be deleted. You can also send any question about your data to that address — if the answer depends on another company, pointing you to them is the developer's job too.</p>
+    <p>The developer is based in Türkiye. Turkish law grants a person whose personal data is processed rights such as learning whether their data is processed, requesting information about it, having it corrected, requesting its deletion, and learning to whom it has been transferred; the applicable time limit and the route for complaining to the Personal Data Protection Board are described on the <a href="https://www.kvkk.gov.tr/Icerik/2036/Ilgili-Kisinin-Haklari" rel="noopener noreferrer">Authority's data subject rights page</a>.</p>
+    <p>If you live in the European Union, data protection law grants rights such as being informed, access, rectification, erasure, restriction of processing and data portability; the conditions under which each right applies and the response times are set out on the <a href="https://commission.europa.eu/law/law-topic/data-protection/information-individuals_en" rel="noopener noreferrer">European Commission's information page for individuals</a>. If you live in the United Kingdom, the same rights are governed by UK law; the response time is normally one calendar month and can be longer for complex or multiple requests — see the <a href="https://ico.org.uk/for-the-public/time-limits-for-responding-to-data-protection-rights-requests/" rel="noopener noreferrer">ICO's page on time limits</a> and the <a href="https://ico.org.uk/for-the-public/how-to-make-a-data-protection-complaint/" rel="noopener noreferrer">ICO's page on making a complaint</a>.</p>
+    <p>The data that goes to Google with the ads is not held by the developer and the developer cannot access it. You can raise requests about it through Google's privacy tools; the routes are described in the <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Privacy Policy</a>. You can also reset your device's advertising ID yourself, as described above. If you are unsure where to go, you can write to the address above.</p>
 
     <h2 id="children">Age</h2>
-    <p>Pro Football Agent is intended for players aged 13 and over. This is the developer's own decision about the intended audience; it is not an official store age rating, and the Google Play content rating questionnaire has not been completed yet. This statement describes intent and is not on its own a determination of compliance with any particular law.</p>
-    <p>The game does not ask any player, of any age, for personal information, and it does not send anything about a player to the developer on its own. The one route by which information reaches the developer is a support e-mail that someone chooses to send; if a child writes in, the developer sees that message like any other. If you are a parent or guardian and have a question about the game — or want a message deleted — please write to <a href="mailto:xahkeee@gmail.com">xahkeee@gmail.com</a>.</p>
+    <p>Pro Football Agent is designed for players aged 13 and over. This is the developer's own decision about the intended audience.</p>
+    <p>The rewarded ad has a separate threshold of its own: 18. That threshold is not the game's audience; it only decides whether the ad path opens. A player below it, or one who does not share a birth year, keeps the whole game, their careers and their saves; only the ad and its daily reward stay closed, and nothing replaces that reward.</p>
+    <p>The declaration is your own statement and is not verified. Because only the year is stored, it is not known whether your birthday has passed and the younger age is assumed — so reaching the threshold can appear up to a year late, depending on your date of birth.</p>
+    <p>Apart from the birth year, the game asks no player for personal information and sends nothing about any player to the developer on its own. If you are a parent or guardian and there is a problem with the game — or you want a support message that was sent deleted — you can write to <a href="mailto:xahkeee@gmail.com">xahkeee@gmail.com</a>.</p>
 
-    <h2 id="future">Planned changes</h2>
-    <p>An AdMob account has been created for this app, but <strong>no advertising SDK and no consent management platform (UMP) are integrated into the game at this time</strong>. The build described by this policy shows no ads and contains no ad code.</p>
-    <p>If advertising is added later, that will change what the app does: an advertising SDK typically collects data such as device and advertising identifiers, and in some regions a consent flow is required before it may do so. This policy will be rewritten to describe the actual behaviour, and the Google Play Data safety declaration will be updated, before any version containing ads is published. Nothing on this page should be read as a promise that no data will ever be collected by a future version.</p>
+    <h2 id="website">This website</h2>
+    <p>This site consists of static pages hosted on GitHub Pages. There are no analytics, no ads, no tracking pixels, no cookie banner, no contact form and no third-party fonts or scripts. The site sets no cookies of its own.</p>
+    <p>As the host, GitHub logs visitors' IP addresses for security purposes when a GitHub Pages site is visited. That logging belongs to GitHub, is entirely separate from the game, and falls under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener noreferrer">GitHub Privacy Statement</a>. The developer does not receive those logs.</p>
 
     <h2 id="changes">Changes to this policy</h2>
-    <p>When this policy changes, the "Last updated" date at the top of the page changes with it. The current version always lives at this address:<br>
+    <p>When this policy changes, the "Last updated" date at the top of the page changes with it. The current version always lives at:<br>
       <a href="https://xahke.github.io/privacy/pro-football-agent/en.html">https://xahke.github.io/privacy/pro-football-agent/en.html</a></p>
+    <p>If the app's advertising behaviour changes, this policy will be updated before that version is published. Today the app uses sample ad identifiers and no ad mediation network; whether either of those will change has not been decided.</p>
 
     <h2 id="contact">Contact</h2>
-    <p>For any question about this policy or about your data, write to
+    <p>For any question about this policy or your data:
       <a href="mailto:xahkeee@gmail.com">xahkeee@gmail.com</a>.</p>
-    <p class="muted"><small>This document is also available in <a href="/privacy/pro-football-agent/tr.html" hreflang="tr" lang="tr">Türkçe</a>. Both versions describe the same thing; if they ever disagree, that is a mistake — please report it to the address above.</small></p>
+    <p class="muted"><small>This document is also available in <a href="/privacy/pro-football-agent/tr.html" hreflang="tr" lang="tr">Türkçe</a>. The two versions say the same thing; if they ever contradict each other that is a mistake — please report it to the address above.</small></p>
 
   </article>
 </main>
