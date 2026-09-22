@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Privacy Policy — Pro Football Agent — Xahke</title>
-<meta name="description" content="Privacy policy for Pro Football Agent (com.xahke.profootballagent) by Xahke. What the game stores on your device, what goes to Google with the rewarded ad, the birth year declaration, and how to delete your data.">
+<meta name="description" content="Privacy policy for Pro Football Agent (com.xahke.profootballagent) by Xahke. What the game stores on your device, what goes to Google with the ads, purchases through Google Play, the birth year declaration, and how to delete your data.">
 <meta name="theme-color" content="#0B111E">
 <link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/assets/img/pro-football-agent-icon-96.png">
@@ -47,34 +47,43 @@
       <b>App:</b> Pro Football Agent<br>
       <b>Package name:</b> com.xahke.profootballagent<br>
       <b>Contact:</b> <a href="mailto:xahkeee@gmail.com">xahkeee@gmail.com</a><br>
-      <b>Last updated:</b> 12 September 2026<br>
-      <b>App status:</b> Not yet published on Google Play.
+      <b>Last updated:</b> 22 September 2026<br>
+      <b>App status:</b> In internal testing on Google Play; not released to the public.
     </p>
 
     <div class="note">
-      <p><strong>Read this first.</strong> This policy describes what the Android version of Pro Football Agent does today. The app has not been published on Google Play yet. The game itself runs offline and never sends your saves anywhere; separately from that, the app contains Google's advertising and ad-consent tools, and if you have shared a birth year that meets the ad age threshold, those connect to Google every time the app opens. These are two different things and they are described separately below.</p>
+      <p><strong>Read this first.</strong> This policy describes what the Android version of Pro Football Agent does today. The app is in internal testing on Google Play; it has not been released to the public. The game itself runs offline and never sends your saves anywhere; separately from that, the app contains Google's advertising and ad-consent tools, and if you have shared a birth year that meets the ad age threshold, those connect to Google every time the app opens. Separately from both, the app offers products that can be bought through Google Play, and it asks Google Play a set of store questions at every launch — that path does not depend on the birth year declaration. These are three different things and they are described separately below.</p>
     </div>
 
     <h2 id="summary">Short version</h2>
     <p>Pro Football Agent is a single-player football agent game. There is no account, no sign-in, and the developer runs no server for it. Your careers, your agency name and your settings are written to the app's own storage on your phone.</p>
-    <p>Three separate things follow, and they should not be merged. <strong>First:</strong> the game does not send your saves or anything you typed to the developer or anywhere else. <strong>Second:</strong> if you write to us, your support message and your email address reach the developer. <strong>Third:</strong> when the app is published through Google Play, the store's own reports and the reviews written on the store will be visible to the developer. As for the rewarded ad in the app, you start it yourself and get in-game money back; the advertising is run by Google, so ad-related data goes to Google rather than to the developer.</p>
+    <p>Four separate things follow, and they should not be merged. <strong>First:</strong> the game does not send your saves or anything you typed to the developer or anywhere else. <strong>Second:</strong> if you write to us, your support message and your email address reach the developer. <strong>Third:</strong> because the app is distributed through Google Play, the store's own reports are visible to the developer; once it is released to the public, the reviews written on the store will be too. As for the rewarded ad in the app, you start it yourself and get in-game money back; apart from that, a full-screen ad can open on its own in mid-season and at the end of a season. The advertising is run by Google, so ad-related data goes to Google rather than to the developer. <strong>Fourth:</strong> the app offers products that can be bought through Google Play; Google Play takes the payment, your card details never reach the app, and all the app receives is the record of the purchase.</p>
 
     <h2 id="collect">What the game stores on your device</h2>
-    <p>The following is kept on your phone, in the app's own storage. The game sends none of it anywhere; however, if Android backup is enabled on your device, your operating system can include this data in a backup — that is done by Android, not by the game, and is described under <a href="#backup">Android backup</a>.</p>
+    <p>The following is kept on your phone, in the app's own storage. The game does not send any of it anywhere on its own. There is one exception, written out below: when you start a purchase, that career's identifier and that attempt's number are handed to Google Play. Apart from that, if Android backup is enabled on your device, your operating system can include this data in a backup — that is done by Android, not by the game, and is described under <a href="#backup">Android backup</a>.</p>
     <ul>
       <li><strong>Your career saves.</strong> Up to three career slots. A save holds the game world and your progress in it: the agency and manager name you typed, your clients, your money, your reputation, the leagues you have discovered, match history and in-game messages. The app never asks for your real name, email address, phone number or location. The agency and manager name is free text; whatever you type there stays on your device like the rest of the save.</li>
       <li><strong>Your settings.</strong> Theme, language and sound preference.</li>
       <li><strong>Your birth year — only if you share it.</strong> We ask for your birth year before the rewarded ad can be opened. Only the year is stored; the month and day are not asked for. If you do not share it, nothing is written and the game works exactly the same. It is not part of a career save but of your device preferences — deleting a career does not delete it. It is not sent to the developer and is not attached to ad requests.</li>
       <li><strong>Your daily reward record.</strong> Which career used today's ad reward, and whether a showing was interrupted. It exists so the same reward is never credited twice.</li>
-      <li><strong>Local identifiers.</strong> Each career gets a randomly generated identifier when it is created, and each reward request gets a randomly generated transaction number. They are used to match career records and reward records to each other. They are not generated for the purpose of tracking across apps, they are not attached to ad requests, and they are not sent to the developer. Because they are part of your saves, they can be included in an Android backup if backup is enabled.</li>
+      <li><strong>Season transition markers.</strong> Which season transition of a career has already shown its full-screen ad is marked in the career save. It exists so a second ad never opens at the same transition.</li>
+      <li><strong>Your purchase records.</strong> These are not created only by a completed purchase. Three separate things are kept:
+        <ul>
+          <li><strong>A reservation.</strong> When you pick a capacity pack on the store screen, room is set aside in that career before the payment even starts — so the +10 per-career ceiling cannot be exceeded. The reserved capacity is released when the purchased entitlement has been durably recorded, when it is certain that the attempt was cancelled, or when it is confirmed that the payment flow never started. For attempts whose outcome stays undetermined, it can remain reserved.</li>
+          <li><strong>The record of the entitlement granted.</strong> The purchase token issued by Google Play and which product it belongs to. Capacity packs sit in the career save they belong to; ad removal sits in your device preferences.</li>
+          <li><strong>A transaction queue.</strong> Unfinished transactions, and ones whose state is not settled, are kept in a queue held for the device as a whole: payments still pending, entitlements granted whose closure could not be verified, and transactions whose target career no longer exists. This queue does not belong to any single career.</li>
+        </ul>
+      </li>
+      <li><strong>Prices are not stored, but they do reach the app.</strong> The app gets the localized price of each product from Google Play and shows it on the store screen; it does not write it to the device and asks again at every launch. Card and billing details are a separate matter entirely: they never reach the app and are stored nowhere.</li>
+      <li><strong>Local identifiers.</strong> Each career gets a randomly generated identifier when it is created, and each reward request and each purchase attempt gets a randomly generated number. They are used to match career, reward and purchase records to each other. They are not generated for the purpose of tracking across apps, they are not attached to ad requests, and they are not sent to the developer. When you start a purchase, the career's identifier and that attempt's number are handed to Google Play together — so that the entitlement can be written to the right career once the payment completes (<a href="#purchases">Purchases and Google Play</a>). Because they are part of your saves, they can be included in an Android backup if backup is enabled.</li>
     </ul>
 
     <h2 id="not-collect">What the game does not do on its own</h2>
     <ul>
       <li>The game does <strong>not</strong> send your saves, your settings or anything you typed to the developer or to any server.</li>
       <li>The game has <strong>no</strong> analytics, crash reporting or usage tracking of its own.</li>
-      <li>There are <strong>no</strong> in-app purchases and no real-money payments.</li>
-      <li>There are <strong>no</strong> automatic, banner or interstitial ads. An ad opens only when you ask for one, from a single place.</li>
+      <li>The game never starts a purchase <strong>on its own</strong>. A real-money payment happens only when you pick a product on the store screen and confirm Google Play's payment sheet; your card details do not pass through the app (<a href="#purchases">Purchases and Google Play</a>).</li>
+      <li>There are <strong>no</strong> banner ads and no app-open ads. The rewarded ad opens only when you ask for one; apart from that, the only ad that opens on its own is the full-screen transition ad in mid-season and at the end of a season (<a href="#auto-ads">Automatic ads at season transitions</a>).</li>
       <li>The game does not sync your saves to a cloud account. Backup can only happen through Android's own feature, described below.</li>
     </ul>
 
@@ -83,30 +92,45 @@
     <p>The limit of that statement belongs here too. Measurements were taken on a test device, and what was verified is this: with no birth year shared, the app made no call to the advertising component, and no connection to any advertising address appeared in the logs.</p>
     <p>On the other hand, when the app was opened for the first time, some network traffic was recorded against the app's own account even though the ad path was closed. <strong>What produced that traffic was not determined.</strong> On a later launch on the same device, again with the ad path closed, no traffic was measured during the observation window. The advertising library is installed on the device together with the app and carries its own startup component; whether the measured traffic came from that component, from the browser component inside the app, or from something else was not established.</p>
     <p>So we do not claim that "no network connection is made while the ad path is closed". What we say is narrower: the app does not start the ad path on its own.</p>
+    <p>The store side is separate from all of this and <strong>does not depend on the birth year declaration</strong>: on Android, at every launch, the app asks the Google Play app on your device a set of store questions. What those are is described under <a href="#purchases">Purchases and Google Play</a>. The measurement above concerned calls made to the advertising component and does not cover this store path.</p>
     <p>If your declaration meets the threshold, then every time you open the app, the menu is drawn first and then these steps run in the background:</p>
     <ol>
       <li>The app connects to Google's ad-consent tool and refreshes your consent information.</li>
       <li>If a consent screen is required for your region, Google's tool draws it. What is asked and which options are offered is decided by Google's tool; the game does not control that content.</li>
       <li>If the result allows ad requests, Google's advertising library is started. Starting it also connects to Google.</li>
-      <li>If the result does not allow ad requests, the advertising library is never started and no ad row appears in the game.</li>
+      <li>If the result does not allow ad requests, the advertising library is never started and the + button does not appear in the game.</li>
+      <li>If the result allows ad requests, the full-screen ad for the next season transition is loaded in the background beforehand. That load never makes the screen wait, and it does not happen at all if you bought the ad removal product.</li>
     </ol>
-    <p>These steps run <strong>even if you never tap the ad button.</strong> The menu, your saves and the rest of the game do not wait for this flow: if your device is offline the flow does not complete, the game still opens at normal speed, and only the ad row is missing.</p>
+    <p>These steps run <strong>even if you never tap the ad button.</strong> The menu, your saves and the rest of the game do not wait for this flow: if your device is offline the flow does not complete, the game still opens at normal speed, and only the + button is missing.</p>
     <p>The result of the consent flow determines one thing: whether an ad may be requested. It is not a measurement of what data was actually collected.</p>
     <p>Ad privacy options are a separate path. When <strong>you</strong> tap that row in Settings, Google's consent tool is contacted even if you never shared a birth year or have deleted it: managing the consent you gave earlier needs current information. That connection starts from your tap, not at startup, and it does not initialise the advertising library.</p>
 
     <h2 id="ad">You start the ad yourself</h2>
-    <p>There is a "Watch an ad" row on the career screen. If you have not shared your birth year yet, that row takes you to the declaration screen; the reward amount is not shown there, and the screen does not tell you which answer opens the feature. You can continue without sharing. If your declaration is below the threshold, the row says so neutrally and does not invite you to change your answer.</p>
-    <p>If your declaration meets the threshold, the row then looks at the advertising side: it is <strong>not drawn at all</strong> if the advertising component has not been started on the device, or if the consent result does not allow ad requests. If the day's reward has been used, the row stays where it is and says that it has been used and will open again tomorrow.</p>
+    <p>On the career screen there is a small <strong>+</strong> button next to your money. Tapping it <strong>does not start an ad</strong>; it only opens a window.</p>
+    <p>If you have not shared your birth year yet, the window does not open at all: <strong>+</strong> takes you straight to the declaration screen. The reward amount is not shown there, and the screen does not tell you which answer opens the feature; you can continue without sharing. If your declaration is below the threshold, the window that opens says so neutrally, still does not show the amount, and does not invite you to change your answer.</p>
+    <p>If your declaration meets the threshold, the window shows the reward amount, the state of your daily allowance, and a button clearly labelled <strong>"Watch an ad"</strong>. The ad starts only when you press that button. The button can be pressed only while today's reward is available; if it has been used, or another ad or consent step is running at that moment, the window says so and the button stays disabled.</p>
+    <p>The <strong>+</strong> button itself is not always there either: it is <strong>not drawn at all</strong> if the advertising component has not been started on the device, or if the consent result does not allow ad requests.</p>
     <ul>
-      <li>An ad opens <strong>only</strong> when you tap that row.</li>
+      <li>An ad opens <strong>only</strong> when you press the "Watch an ad" button in that window.</li>
       <li>The reward is <strong>separate for each career</strong> and available <strong>once a day</strong>. The day is calculated from your device's local calendar; when the local day turns over, the reward becomes available again. Two careers do not consume each other's reward.</li>
       <li>The reward is <strong>in-game money</strong> — not real money, not a gift card, not store credit.</li>
     </ul>
     <p>The reward is credited when the advertising component <strong>reports that the reward condition has been met</strong>. That report can arrive before the ad screen closes — what determines the reward is the report, not the screen closing. If no such report arrives, no reward is credited and the day's reward is not treated as used.</p>
     <p>This version uses Google's <strong>sample (test) ad identifiers</strong> and no ad mediation network.</p>
 
+    <h2 id="auto-ads">Automatic ads at season transitions</h2>
+    <p>Separately from the rewarded ad, a full-screen ad can open on its own at <strong>two</strong> points in a career season: the week the mid-season transfer window opens, and the moment the season ends. Both moments are computed from the fixture list, not from a fixed week number.</p>
+    <ul>
+      <li>Each transition is worth <strong>one ad per season</strong> and is marked in the career save; redrawing the screen, reloading the save or closing and reopening the app cannot produce a second ad at the same transition.</li>
+      <li>The game never <strong>waits</strong> for the ad. If no ad happens to be loaded at that moment, nothing opens and the week advances normally. Closing the ad, or an error, does not touch game state.</li>
+      <li>These ads also depend on <strong>the birth year declaration and the consent result</strong>. If you have not shared a declaration, if it is below the threshold, or if the consent result does not allow ad requests, nothing is loaded and nothing is shown.</li>
+      <li>If you bought the <strong>ad removal</strong> product in the store, these ads are not shown and are not <strong>loaded</strong> either. That product does not switch off the rewarded ad: you start that one yourself and are paid for it.</li>
+      <li>There are no banner ads, no app-open ads, and no ad that opens on its own anywhere else in the game.</li>
+    </ul>
+    <p>These ads come from the same Google advertising library; what goes to Google is described in the section below. In this version they also use one of Google's <strong>sample (test) ad identifiers</strong>.</p>
+
     <h2 id="google">What goes to Google with the ads</h2>
-    <p>The advertising side is run by Google and that data does not reach the developer. Google publishes its own account of what the advertising library collects for the version used in this app. According to <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" rel="noopener noreferrer">Google's own data disclosure</a>, the library collects and shares:</p>
+    <p>This section applies to both kinds of ad: the rewarded ad you start yourself, and the automatic ad at season transitions. The advertising side is run by Google and that data does not reach the developer. Google publishes its own account of what the advertising library collects for the version used in this app. According to <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" rel="noopener noreferrer">Google's own data disclosure</a>, the library collects and shares:</p>
     <ul>
       <li><strong>IP address</strong> — which may be used to estimate your general location.</li>
       <li><strong>App and ad interactions</strong> — app launches, taps, video views.</li>
@@ -124,8 +148,18 @@
       <li><strong>From your Google account:</strong> you can manage personalization through Google's own ad settings. Details are in the <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Privacy Policy</a>.</li>
     </ul>
 
+    <h2 id="purchases">Purchases and Google Play</h2>
+    <p>The app offers five products: four <strong>capacity packs</strong> (raising the number of clients a career can carry by +1, +3, +5 or +10) and one <strong>ad removal</strong> product. Payment runs through <strong>Google Play's billing system</strong>.</p>
+    <p><strong>Your card details never reach the app.</strong> Google Play draws the payment sheet and collects card, billing and payment information directly. The app never sees, stores or processes any of it, and that information is handled under Google Play's own terms.</p>
+    <p><strong>What the app gives to Google Play:</strong> the identifier of the product you want to buy, and a randomly generated pair of identifiers — the career's random identifier and a random number generated for that purchase attempt. The pair exists so the entitlement can be written to the right career once the payment completes. It contains no name, no email address, no device identifier and no account information; nothing you typed into your career is sent either.</p>
+    <p><strong>What Google Play gives back to the app:</strong> the state of the purchase, the product identifier, the <strong>purchase token</strong> issued by Google Play, and the same pair of identifiers. The app writes these into its own storage — that record is what says which entitlement was granted. Capacity packs are written to the <strong>career save</strong>, ad removal to your <strong>device preferences</strong>. These records are not sent to the developer; the developer runs no server.</p>
+    <p><strong>What is asked at every launch.</strong> On Android, while the app opens, it asks the Google Play app on your device three things: is billing available on this device, what are the product details and localized prices, and is there a purchase still standing on your account. These questions <strong>do not depend on the birth year declaration</strong> — they are asked even while the ad path is closed. Buying does not work until the products are opened on the store side; in that case the app says that purchasing is unavailable.</p>
+    <p><strong>Capacity packs belong to one career.</strong> The capacity you buy applies only to that career, and a career can hold at most +10. <strong>Deleting that career deletes that capacity with it.</strong> On the Google Play side these packs are "consumable" products: once delivered, Google Play no longer returns them among the purchases standing on your account. So if you uninstall and reinstall, or move to another device, a capacity pack that has been consumed <strong>cannot be restored by asking Google Play</strong>; and the developer holds no record of it either, because there is no server. Because the capacity lives inside the career save, it can come back with that save if Android backup is enabled and the backup is restored — but we cannot promise that a backup was taken or that restoring it will succeed; that is Android's doing (<a href="#backup">Android backup</a>).</p>
+    <p><strong>Deleting a career does not delete the purchase record.</strong> When the career goes, its capacity and any reservation go with it; but the record of a paid transaction for that career stays in the device-wide queue and is marked as having no target. Deleting the record of a paid transaction would destroy the only trace you have. The entitlement is not moved to another career on its own.</p>
+    <p><strong>Ad removal can be restored.</strong> That product is "non-consumable" and is kept in your device preferences. When you are signed in with the same Google Play account, the app sees the product again when it asks Google Play, and the entitlement comes back. The record on the device is only a local copy; what the entitlement actually rests on is your Google Play account. This product switches off only the <a href="#auto-ads">automatic ads at season transitions</a>.</p>
+
     <h2 id="internet">What the internet connection is used for</h2>
-    <p>The app declares the internet permission and, on Android, genuinely uses it. The uses we know of are two: the ad consent flow and the ads. We do not, however, limit the app's total network usage to those two — at first launch some traffic of undetermined origin was also measured (<a href="#startup">What happens when the app opens</a>). The game itself makes no request to any external address at any point during play. Everything the game displays comes from inside the installed app, and the game is fully playable offline.</p>
+    <p>The app declares the internet permission and, on Android, genuinely uses it. The uses we know of are three: the ad consent flow, the ads, and the store questions asked of Google Play. The third runs through the Google Play app on your device; the app itself does not connect to a store server. We do not, however, limit the app's total network usage to those three — at first launch some traffic of undetermined origin was also measured (<a href="#startup">What happens when the app opens</a>). The game itself makes no request to any external address at any point during play. Everything the game displays comes from inside the installed app, and the game is fully playable offline.</p>
     <p>Tapping the Privacy Policy row in Settings is not an exception but an address: the link is handed to your device's browser and the browser loads the page. The game does not open that page inside itself.</p>
     <p>This policy describes the Android version of the app. The consent flow and the ads run through the native advertising component on the device; when the game is opened in a web browser that component is not present, so no consent request and no ad request is made. Page and file downloads by the browser version are a separate matter.</p>
 
@@ -143,16 +177,17 @@
     <h2 id="delete">Deleting your data</h2>
     <p>Because game data lives on your device, you do the deleting. Each of the following removes the data held <strong>on that device</strong>:</p>
     <ul>
-      <li><strong>Delete a single career:</strong> from the slot card in the main menu, or from Settings inside a career with "Delete career".</li>
-      <li><strong>Delete everything:</strong> in Android settings, Apps → Pro Football Agent → Storage → "Clear storage".</li>
+      <li><strong>Delete a single career:</strong> from the slot card in the main menu, or from Settings inside a career with "Delete career". This also deletes the capacity bought for that career. The device-wide transaction queue is <strong>not</strong> deleted: the record of a paid transaction for that career stays, marked as having no target (<a href="#purchases">Purchases and Google Play</a>).</li>
+      <li><strong>Delete everything:</strong> in Android settings, Apps → Pro Football Agent → Storage → "Clear storage". This also deletes the transaction queue and the ad removal record in your device preferences; the ad removal product can be restored with the same Google Play account.</li>
       <li><strong>Delete your birth year:</strong> you can delete or change it from the birth year row in Settings. Deleting it closes the ad path; it does not withdraw the advertising consent you gave — you manage that from the ad privacy options.</li>
       <li><strong>Uninstalling the app</strong> also removes your local data.</li>
     </ul>
     <p>These actions <strong>do not reach backup copies.</strong> If Android backup is enabled, a copy may remain in your Google Drive backup after you clear storage or uninstall. That copy is managed by your Google account and is deleted separately: from your device's backup settings or from the Google Drive app.</p>
-    <p>The data that goes to Google with the ads is separate from all of this: Google holds it and it is managed through Google's own tools. Because no copy of your game saves exists with the developer, there is no game data the developer can delete on your behalf. Your support correspondence is separate: you can ask for it to be deleted by writing to the address below. If you write a review on the store after the app is published, you can edit or delete that review yourself through Google Play.</p>
+    <p>Your purchase records on Google Play are not deleted by any of this: your orders are held by your Google Play account and you view them through Google's own tools.</p>
+    <p>The data that goes to Google with the ads is separate from all of this: Google holds it and it is managed through Google's own tools. Because no copy of your game saves exists with the developer, there is no game data the developer can delete on your behalf. Your support correspondence is separate: you can ask for it to be deleted by writing to the address below. If you write a review on the store after the app is released to the public, you can edit or delete that review yourself through Google Play.</p>
 
     <h2 id="retention">Retention</h2>
-    <p>Game data, and your birth year if you shared it, stay on your device until you delete them; since the developer holds no copy, there is no server-side retention period for them. How long the Android backup is kept is determined by Google and your device settings. Retention of ad-related data is determined by Google.</p>
+    <p>Game data, and your birth year if you shared it, stay on your device until you delete them; since the developer holds no copy, there is no server-side retention period for them. How long the Android backup is kept is determined by Google and your device settings. Retention of ad-related data is determined by Google. Your purchase records also stay on your device: the capacity record until the career it belongs to is deleted; the ad removal record and the device-wide transaction queue until storage is cleared or the app is uninstalled — deleting a career does not affect the queue. How long Google Play keeps its own order records is determined by Google.</p>
     <p>The data whose retention period the developer sets is support correspondence. Its period is below.</p>
 
     <h2 id="support">If you write to support</h2>
@@ -162,10 +197,11 @@
     <p><strong>Retention period:</strong> support correspondence is deleted within 30 days after the request is closed — the incoming message, the reply and any attachments together. You can ask for it to be deleted sooner by writing to the same address.</p>
 
     <h2 id="reports">What the developer sees in reports</h2>
-    <p>The developer receives no data directly from the game. When the app is published through Google Play, two things will become visible on the store side:</p>
+    <p>The developer receives no data directly from the game. Because the app is distributed through Google Play, three things on the store side are visible to the developer:</p>
     <ul>
-      <li><strong>Store statistics.</strong> Aggregate figures such as installs, uninstalls, crashes and ratings, broken down by country, device and app version. These are aggregate statistics and contain no records about individual people.</li>
-      <li><strong>Store reviews.</strong> The review text, along with the name shown on your Play profile, plus language and device information. A store review is public text to begin with.</li>
+      <li><strong>Store statistics.</strong> Aggregate figures such as installs, uninstalls, crashes and ratings, broken down by country, device and app version. These are aggregate statistics and contain no records about individual people. They are produced during internal testing too; at that stage they cover only the devices on the test list.</li>
+      <li><strong>Store reviews.</strong> The review text, along with the name shown on your Play profile, plus language and device information. A store review is public text to begin with. These appear once the app is released to the public.</li>
+      <li><strong>Sales reports.</strong> Sales and order information for transactions made through Google Play can be made available to the developer in the reports Google Play provides. These come from Google Play, not from the app: the app sends the developer no purchase information at all.</li>
     </ul>
     <p>On the advertising side, the app currently uses Google's sample (test) ad identifiers. In its <a href="https://developers.google.com/admob/android/test-ads" rel="noopener noreferrer">test ads documentation</a>, Google states that requests, impressions and clicks on test ads do not appear in an account's reports; so in this version no report data about this app accumulates in the developer's ad account. If that changes, this section will be updated.</p>
     <p>Support emails are the only route by which personal information reaches the developer directly, and they are described in their own section above.</p>
@@ -178,7 +214,7 @@
 
     <h2 id="children">Age</h2>
     <p>Pro Football Agent is designed for players aged 13 and over. This is the developer's own decision about the intended audience.</p>
-    <p>The rewarded ad has a separate threshold of its own: 18. That threshold is not the game's audience; it only decides whether the ad path opens. A player below it, or one who does not share a birth year, keeps the whole game, their careers and their saves; only the ad and its daily reward stay closed, and nothing replaces that reward.</p>
+    <p>The ads have a separate threshold of their own: 18. It covers both the rewarded ad and the automatic ad at season transitions; it is not the game's audience, it only decides whether the ad path opens. A player below it, or one who does not share a birth year, keeps the whole game, their careers and their saves; only the ads and the rewarded ad's daily reward stay closed, and nothing replaces that reward. The store is separate from this threshold: buying does not depend on the birth year declaration and runs through your Google Play account.</p>
     <p>The declaration is your own statement and is not verified. Because only the year is stored, it is not known whether your birthday has passed and the younger age is assumed — so reaching the threshold can appear up to a year late, depending on your date of birth.</p>
     <p>Apart from the birth year, the game asks no player for personal information and sends nothing about any player to the developer on its own. If you are a parent or guardian and there is a problem with the game — or you want a support message that was sent deleted — you can write to <a href="mailto:xahkeee@gmail.com">xahkeee@gmail.com</a>.</p>
 
@@ -189,7 +225,7 @@
     <h2 id="changes">Changes to this policy</h2>
     <p>When this policy changes, the "Last updated" date at the top of the page changes with it. The current version always lives at:<br>
       <a href="https://xahke.github.io/privacy/pro-football-agent/en.html">https://xahke.github.io/privacy/pro-football-agent/en.html</a></p>
-    <p>If the app's advertising behaviour changes, this policy will be updated before that version is published. Today the app uses sample ad identifiers and no ad mediation network; whether either of those will change has not been decided.</p>
+    <p>If the app's advertising behaviour changes, this policy will be updated before that version is published. Today the app uses sample ad identifiers and no ad mediation network; whether either of those will change has not been decided. The same applies to the purchase side: if the scope of the products or the way they work changes, this policy is updated before that version too.</p>
 
     <h2 id="contact">Contact</h2>
     <p>For any question about this policy or your data:
