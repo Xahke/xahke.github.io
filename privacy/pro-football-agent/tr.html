@@ -47,7 +47,7 @@
       <b>Uygulama:</b> Pro Football Agent<br>
       <b>Paket adı:</b> com.xahke.profootballagent<br>
       <b>İletişim:</b> <a href="mailto:xahkeee@gmail.com">xahkeee@gmail.com</a><br>
-      <b>Son güncelleme:</b> 1 Ekim 2026<br>
+      <b>Son güncelleme:</b> 9 Ekim 2026<br>
       <b>Uygulamanın durumu:</b> Google Play'de dahili test aşamasında; genel kullanıma sunulmadı.
     </p>
 
@@ -115,7 +115,7 @@
       <li>Ödül <strong>oyun içi para</strong>; gerçek para, hediye kartı ya da mağaza kredisi değil.</li>
     </ul>
     <p>Ödül, reklam bileşeninin <strong>ödül koşulunun karşılandığını bildirmesiyle</strong> yazılıyor. Bu bildirim, reklam ekranı kapanmadan önce de gelebilir — ödülü belirleyen şey ekranın kapanması değil, bu bildirim. Bildirim gelmezse ödül yazılmıyor ve o günün hakkı da kullanılmış sayılmıyor.</p>
-    <p>Bu sürümde Google'ın <strong>örnek (test) reklam kimlikleri</strong> kullanılıyor ve aracı reklam ağı (mediation) yok.</p>
+    <p>Bunlar gerçek reklamlar: uygulamanın kendi reklam birimleri üzerinden <strong>Google AdMob</strong>'dan geliyorlar. Aracı reklam ağı (mediation) yok; reklamlar yalnız Google AdMob üzerinden sunuluyor.</p>
 
     <h2 id="gecis-reklami">Sezon geçişlerindeki otomatik reklam</h2>
     <p>Ödüllü reklamdan ayrı olarak, bir kariyer sezonunda <strong>iki</strong> noktada kendiliğinden tam ekran bir reklam açılabiliyor: sezon ortası transfer döneminin açıldığı hafta ve sezonun bittiği an. Bu iki an fikstürden hesaplanıyor, sabit bir hafta sayısından değil.</p>
@@ -126,7 +126,7 @@
       <li>Mağazadaki <strong>reklam kaldırma</strong> ürününü aldıysan bu reklamlar gösterilmiyor ve <strong>yüklenmiyor</strong> da. Bu ürün ödüllü reklamı kapatmıyor: onu sen başlatıyorsun ve karşılığında ödül alıyorsun.</li>
       <li>Banner reklam, açılış reklamı ya da oyunun başka bir yerinde kendiliğinden açılan reklam yok.</li>
     </ul>
-    <p>Bu reklamlar Google'ın aynı reklam kütüphanesinden geliyor; Google'a ne gittiği aşağıdaki bölümde anlatılıyor. Bu sürümde burada da Google'ın <strong>örnek (test) reklam kimliği</strong> kullanılıyor.</p>
+    <p>Bu reklamlar Google'ın aynı reklam kütüphanesinden geliyor; Google'a ne gittiği aşağıdaki bölümde anlatılıyor. Bunlar da gerçek reklamlar: uygulamanın kendi reklam birimi üzerinden <strong>Google AdMob</strong>'dan geliyorlar ve burada da aracı reklam ağı yok.</p>
 
     <h2 id="google">Reklamlarla birlikte Google'a ne gidiyor</h2>
     <p>Bu bölüm iki reklam türü için de geçerli: senin başlattığın ödüllü reklam ve sezon geçişlerindeki otomatik reklam. Reklam tarafını Google yürütüyor ve bu veriler geliştiriciye ulaşmıyor. Google, uygulamada kullanılan reklam kütüphanesi sürümü için topladığı verileri kendisi yayımlıyor. Google'ın <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" rel="noopener noreferrer">kendi veri açıklamasına</a> göre bu kütüphane şunları topluyor ve paylaşıyor:</p>
@@ -203,7 +203,7 @@
       <li><strong>Mağaza yorumları.</strong> Yorum metni, Play profilinde görünen adın, dil ve cihaz bilgisiyle birlikte görünüyor. Mağaza yorumu zaten herkese açık bir metin. Uygulama genel kullanıma sunulduktan sonra oluşuyor.</li>
       <li><strong>Satış raporları.</strong> Google Play üzerinden gerçekleşen işlemlere ilişkin satış ve sipariş bilgileri, Google Play'in sağladığı raporlarda geliştiriciye sunulabiliyor. Bunlar Google Play'den geliyor, uygulamadan değil: uygulama geliştiriciye hiçbir satın alma bilgisi göndermiyor.</li>
     </ul>
-    <p>Reklam tarafında ise uygulama şu anda Google'ın örnek (test) reklam kimliklerini kullanıyor. Google, <a href="https://developers.google.com/admob/android/test-ads" rel="noopener noreferrer">test reklamları belgesinde</a> test reklamlarına ait istek, gösterim ve tıklamaların hesap raporlarında görünmediğini belirtiyor; dolayısıyla bu sürümde geliştiricinin reklam hesabında bu uygulamaya ait bir rapor verisi oluşmuyor. Bu durum değişirse bu bölüm güncellenecek.</p>
+    <p>Reklam tarafında ise uygulama Google AdMob üzerinden gerçek reklam gösteriyor ve Google, geliştiricinin AdMob hesabında bu uygulamaya ait toplu reklam raporları sunuyor: reklam isteği, gösterim, tıklama ve tahmini kazanç sayıları; ülke ve reklam birimi gibi kırılımlarda. Bunlar toplu sayılar ve tek tek kişilere ait kayıtlar içermiyor. Bu raporların tek kaynağı AdMob; uygulamada ayrı bir analitik aracı yok.</p>
     <p>Destek e-postaları, kişisel bilginin geliştiriciye doğrudan ulaştığı tek yol ve yukarıda kendi bölümünde anlatıldı.</p>
 
     <h2 id="haklar">Haklarını kullanmak</h2>
@@ -225,7 +225,7 @@
     <h2 id="degisiklikler">Bu metindeki değişiklikler</h2>
     <p>Bu metin değiştiğinde sayfanın başındaki "Son güncelleme" tarihi de değişir. Güncel sürüm her zaman şu adreste durur:<br>
       <a href="https://xahke.github.io/privacy/pro-football-agent/tr.html">https://xahke.github.io/privacy/pro-football-agent/tr.html</a></p>
-    <p>Uygulamanın reklam davranışı değişirse bu metin, o sürüm yayımlanmadan önce güncellenecek. Bugün örnek reklam kimlikleri kullanılıyor ve aracı reklam ağı yok; bunların değişip değişmeyeceği kararlaştırılmadı. Aynısı satın alma tarafı için de geçerli: ürünlerin kapsamı ya da nasıl çalıştıkları değişirse bu metin de o sürümden önce güncellenecek.</p>
+    <p>Uygulamanın reklam davranışı değişirse bu metin, o sürüm yayımlanmadan önce güncellenecek. Bugün uygulama Google AdMob üzerinden gerçek reklam gösteriyor ve aracı reklam ağı yok. Aynısı satın alma tarafı için de geçerli: ürünlerin kapsamı ya da nasıl çalıştıkları değişirse bu metin de o sürümden önce güncellenecek.</p>
 
     <h2 id="iletisim">İletişim</h2>
     <p>Bu metinle ya da verilerinle ilgili her soru için:
