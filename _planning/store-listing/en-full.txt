@@ -1,9 +1,9 @@
 You do not manage a football club. You manage the careers of footballers.
 
-Pro Football Agent puts you on the other side of the table. You start as an unknown agent with a little money, no reputation and nobody returning your calls. Somewhere out there is a teenager nobody is watching yet. Find them, convince them to sign with you, and from that moment their career is your career.
+Pro Football Agency puts you on the other side of the table. You start as an unknown agent with a little money, no reputation and nobody returning your calls. Somewhere out there is a teenager nobody is watching yet. Find them, convince them to sign with you, and from that moment their career is your career.
 
 BUILD A SCOUTING NETWORK
-Twenty-two leagues across sixteen countries and regions, from Brazil and Argentina to Japan, Saudi Arabia, North and West Africa, and the big European divisions with their second tiers underneath. Every league stays dark until you pay to open it — and early on you cannot afford many. Where you look first is your first real decision.
+Forty-two leagues and 714 clubs across thirty-six countries and regions: Brazil and Argentina, Japan, Saudi Arabia, North and West Africa, and twenty-eight European football nations, the big ones with their second tiers. Every league stays dark until you pay to open it. Where you look first is your first real decision.
 
 WIN CLIENTS OVER
 Signing a player is a conversation, not a button. Reputation decides who will even take the meeting: stars at big clubs and hyped wonderkids want an agent with a name, while the overlooked player at a small club is the one willing to talk to a nobody. That is where every good agency starts.
@@ -21,20 +21,20 @@ HANDLE THE WEEKS IN BETWEEN
 The press, the player, the club, the money, the crises. Events land in your inbox and every answer costs something: cash, reputation, morale, or your client's trust in you. There is rarely a free choice.
 
 A WORLD THAT MOVES WITHOUT YOU
-Matches are simulated week by week. Form and morale swing, players develop and decline, clubs are promoted and relegated, and every fourth season the national teams meet in a tournament. Fourteen rival agencies work the same market: they sign players in the background, race you for a signature, and try to take the clients you already have.
+Matches are simulated week by week. Form and morale swing, players develop and decline, clubs go up and down. Your clients also play in three European club cups in the current format and in a national cup in each of 34 countries. Eighty national teams play qualifiers and friendlies, a 48-team Nations Cup every fourth summer and continental championships in between. Fourteen rival agencies work the same market: they sign players in the background, race you for a signature, and try to take the clients you already have.
 
 BUILT TO BE PLAYED ANYWHERE
-The game runs entirely on your device. No account, no login, no internet connection required — on a plane, on the metro, with the data switched off, it plays exactly the same. Three career slots, saved on your phone.
+The game runs entirely on your device. No account, no login, and the game itself needs no internet connection — on a plane or on the metro it plays exactly the same. Ads and purchases need a connection. Three career slots, saved on your phone.
 
-TURKISH AND ENGLISH
-Both languages are written together rather than translated in afterwards, and you can switch between them at any time from the settings screen.
+SEVEN LANGUAGES
+Turkish, English, Spanish, Portuguese, German, French and Italian. Switch at any time from the settings screen.
 
 FOUR INTERFACE THEMES
 Dossier, Newsprint, Terminal and Pitch — a light neutral layout, a warm paper look, a dense dark data view, and the deep navy original. Pick the one you want to spend a long season in.
 
 PRIVACY
-The game has no accounts, no analytics and no advertising SDK. Your saves and settings stay in the app's own storage on your device and are never sent anywhere. The full privacy policy is at https://xahke.github.io/privacy/pro-football-agent/en.html
+The game has no accounts and no analytics of its own. Your saves and settings stay in the app's own storage on your device; the game sends them nowhere. Ads are served by Google AdMob, only after a birth-year question and Google's consent flow; purchases go through Google Play. The full privacy policy is at https://xahke.github.io/privacy/pro-football-agent/en.html
 
-Free to play. Made by one developer.
+Free to play, with ads and optional in-app purchases. Made by one developer.
 
 Questions, bugs and feedback: xahkeee@gmail.com

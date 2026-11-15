@@ -31,8 +31,8 @@ Sonra tarayıcıda:
 |---|---|
 | Ana sayfa (EN) | <http://localhost:8000/> |
 | Ana sayfa (TR) | <http://localhost:8000/tr/> |
-| Pro Football Agent (EN) | <http://localhost:8000/pro-football-agent/> |
-| Pro Football Agent (TR) | <http://localhost:8000/tr/pro-football-agent/> |
+| Pro Football Agency (EN) | <http://localhost:8000/pro-football-agent/> |
+| Pro Football Agency (TR) | <http://localhost:8000/tr/pro-football-agent/> |
 | Gizlilik metni (EN) | <http://localhost:8000/privacy/pro-football-agent/en.html> |
 | Gizlilik metni (TR) | <http://localhost:8000/privacy/pro-football-agent/tr.html> |
 
@@ -98,28 +98,20 @@ okunabilir olacak. Bu klasörde mağaza metni taslakları, kaynak inceleme notu 
 yayın öncesi kalan işler duruyor. **Buraya gizli hiçbir şey konmayacak** — keystore
 parolası, AdMob yayıncı kimliği, Play Console ekran görüntüsü, API anahtarı yok.
 
-## `app-ads.txt` henüz yok
+## `app-ads.txt`
 
-Bu depoda `app-ads.txt` **bilerek oluşturulmadı**. Gerçek AdMob yayıncı kimliği
-(`pub-...`) henüz paylaşılmadı ve sahte bir değerle dosya koymak doğrulamayı
-sessizce başarısız kılardı.
+Site kökünde, `https://xahke.github.io/app-ads.txt` adresinden düz metin olarak
+yayında. İçindeki satır AdMob arayüzünden aynen kopyalandı; elle yazılmadı.
 
-Gerçek satır elde edildiğinde dosya site köküne `/app-ads.txt` olarak eklenecek —
-yani `https://xahke.github.io/app-ads.txt` adresinden düz metin olarak
-erişilebilecek. Satır AdMob arayüzünden aynen kopyalanacak, elle yazılmayacak.
-Bu eksiklik sitenin geri kalanını etkilemiyor.
+## Gizlilik metinleri
 
-## Gizlilik metinleri taslaktır
-
-`privacy/pro-football-agent/` altındaki iki sayfa, Pro Football Agent'ın
-**henüz yayımlanmamış mevcut sürümünün** kaynak kodu incelenerek yazıldı;
-varsayımla doldurulmadı. Hangi bulgunun hangi dosyadan geldiği ve hangi resmî
-belgelere bakıldığı `_planning/privacy-source-review.md` içinde yazıyor.
-
-Bu metinler yayın öncesinde yeniden incelenecek. Özellikle **AdMob ve UMP oyuna
-entegre edildikten sonra iki dilde de yeniden yazılmaları gerekiyor**: reklam
-SDK'ları tipik olarak cihaz ve reklam tanımlayıcıları topluyor ve mevcut metin
-bunu anlatmıyor. Kalan işlerin tamamı `_planning/pre-launch-checklist.md` içinde.
+`privacy/pro-football-agent/` altındaki iki sayfa, Google Play'de yayındaki
+Pro Football Agency'nin kaynak kodu incelenerek yazıldı; varsayımla doldurulmadı.
+Reklam (AdMob ve UMP rıza akışı, ödüllü reklam, on haftada bir tam ekran reklam),
+açılışta sorulan doğum yılı, Google Play satın almaları, puanlama penceresi,
+yedekleme, silme ve saklama bölümleri güncel. Uygulamanın reklam ya da satın alma
+davranışı değiştiğinde iki dildeki metin, o sürüm yayımlanmadan önce birlikte
+güncelleniyor.
 
 ## Destek
 
