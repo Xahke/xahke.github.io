@@ -47,7 +47,7 @@
       <b>App:</b> Pro Football Agent<br>
       <b>Package name:</b> com.xahke.profootballagent<br>
       <b>Contact:</b> <a href="mailto:xahkeee@gmail.com">xahkeee@gmail.com</a><br>
-      <b>Last updated:</b> 23 October 2026<br>
+      <b>Last updated:</b> 15 November 2026<br>
       <b>App status:</b> Available on Google Play.
     </p>
 
@@ -64,7 +64,7 @@
     <ul>
       <li><strong>Your career saves.</strong> Up to three career slots. A save holds the game world and your progress in it: the agency and manager name you typed, your clients, your money, your reputation, the leagues you have discovered, match history and in-game messages. The app never asks for your real name, email address, phone number or location. The agency and manager name is free text; whatever you type there stays on your device like the rest of the save.</li>
       <li><strong>Your settings.</strong> Theme, language and sound preference.</li>
-      <li><strong>Your birth year — only if you share it.</strong> We ask for your birth year before the rewarded ad can be opened. Only the year is stored; the month and day are not asked for. If you do not share it, nothing is written and the game works exactly the same. It is not part of a career save but of your device preferences — deleting a career does not delete it. It is not sent to the developer and is not attached to ad requests.</li>
+      <li><strong>Your birth year — only if you share it.</strong> We ask for your birth year before any ad can be shown: when the app opens, and when you tap the + button next to your money (<a href="#startup">What happens when the app opens</a>). Only the year is stored; the month and day are not asked for. If you do not share it, nothing is written and the game works exactly the same. It is not part of a career save but of your device preferences — deleting a career does not delete it. It is not sent to the developer and is not attached to ad requests.</li>
       <li><strong>Your daily reward record.</strong> Which career used today's ad reward, and whether a showing was interrupted. It exists so the same reward is never credited twice.</li>
       <li><strong>Rating request record.</strong> How many times the app has asked Google Play for its rating window, when it last did, and whether you opened the store page from Settings, kept in your device preferences. It exists to keep those requests rare. Whether you rated, and what you wrote, is not in it — the app does not know.</li>
       <li><strong>Ad break marker.</strong> The played week of a career's most recent automatic ad break is kept in the career save. It exists so a second ad never opens at the same break, and so the next break can be worked out.</li>
@@ -89,6 +89,7 @@
     </ul>
 
     <h2 id="startup">What happens when the app opens</h2>
+    <p><strong>The birth year question.</strong> On Android, if no birth year has been shared on the device yet, a short screen asking for it opens over the menu once the menu has been drawn. It says that the game shows ads and that the birth year is asked before any can be shown; it does not mention any reward. You can continue without sharing — the whole game, your careers and your saves stay available. Skipping writes nothing, so the question comes back the next time the app opens, until you share a year. Once a year has been shared — whether it meets the threshold or not — it is not asked again; you can change or delete it from Settings. The screen itself is drawn by the game and connects to nothing. In a web browser the question does not appear at all.</p>
     <p>The steps below run <strong>only if you have shared your birth year and your declaration meets the ad age threshold</strong>. If you have not shared it, or it is below the threshold, the app <strong>does not start the ad path on its own</strong>: at startup your consent information is not read, no consent screen is attempted, and the advertising library is not initialised.</p>
     <p>The limit of that statement belongs here too. Measurements were taken on a test device, and what was verified is this: with no birth year shared, the app made no call to the advertising component, and no connection to any advertising address appeared in the logs.</p>
     <p>On the other hand, when the app was opened for the first time, some network traffic was recorded against the app's own account even though the ad path was closed. <strong>What produced that traffic was not determined.</strong> On a later launch on the same device, again with the ad path closed, no traffic was measured during the observation window. The advertising library is installed on the device together with the app and carries its own startup component; whether the measured traffic came from that component, from the browser component inside the app, or from something else was not established.</p>

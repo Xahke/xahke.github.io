@@ -3,7 +3,7 @@ Bir futbol takımını değil, futbolcuların kariyerlerini yönetiyorsun.
 Pro Football Agent seni masanın öbür tarafına oturtuyor. Az parası, hiç itibarı ve telefonuna cevap veren kimsesi olmayan, adı duyulmamış bir menajer olarak başlıyorsun. Dünyanın bir yerinde ise henüz kimsenin bakmadığı bir genç var. Onu bul, seninle çalışmaya ikna et; o andan sonra onun kariyeri senin kariyerin.
 
 KEŞİF AĞINI KUR
-On altı ülke ve bölgeye dağılmış yirmi iki lig: Brezilya ve Arjantin'den Japonya'ya, Suudi Arabistan'a, Kuzey ve Batı Afrika'ya ve altlarında ikinci kademeleriyle büyük Avrupa liglerine kadar. Her lig, parasını ödeyip açana kadar karanlıkta kalıyor — ve başlangıçta çoğuna paran yetmiyor. Nereye önce bakacağın, verdiğin ilk gerçek karar.
+Otuz altı ülke ve bölgede kırk iki lig ve 714 kulüp: Brezilya ve Arjantin, Japonya, Suudi Arabistan, Kuzey ve Batı Afrika ve büyüklerinin ikinci kademeleriyle yirmi sekiz Avrupa futbol ülkesi. Her lig, parasını ödeyip açana kadar karanlıkta kalıyor. Nereye önce bakacağın, verdiğin ilk gerçek karar.
 
 MÜŞTERİNİ İKNA ET
 Oyuncu imzalamak bir düğmeye basmak değil, bir görüşme. Kimin seninle görüşeceğine itibarın karar veriyor: büyük kulüplerin yıldızları ve adı çıkmış genç yetenekler adı olan bir menajer istiyor; küçük bir kulüpte gözden kaçmış oyuncu ise adı duyulmamış birine kulak veren kişi oluyor. Her iyi ajans oradan başlıyor.
@@ -21,20 +21,20 @@ ARADAKİ HAFTALARI YÖNET
 Basın, oyuncu, kulüp, para ve krizler. Olaylar gelen kutuna düşüyor ve her cevabın bir bedeli var: kasa, itibar, moral ya da müşterinin sana duyduğu güven. Bedava seçenek pek çıkmıyor.
 
 SENSİZ DE YÜRÜYEN BİR DÜNYA
-Maçlar hafta hafta simüle ediliyor. Form ve moral oynuyor, oyuncular gelişip yaşlanıyor, kulüpler küme düşüp yükseliyor ve her dört sezonda bir milli takımlar turnuvada karşılaşıyor. Aynı piyasada on dört rakip ajans çalışıyor: arka planda kendi oyuncularını imzalıyor, bir imza için seninle yarışıyor ve mevcut müşterilerini almaya çalışıyorlar.
+Maçlar hafta hafta simüle ediliyor. Form ve moral oynuyor, oyuncular gelişip yaşlanıyor, kulüpler küme düşüp yükseliyor. Müşterilerin güncel formatta üç Avrupa kulüp kupasında ve 34 ülkenin her birindeki ulusal kupada da oynuyor. Seksen milli takım eleme ve hazırlık maçları, her dört yılda bir yaz 48 takımlı Milletler Kupası ve aralarda kıta şampiyonaları oynuyor. Aynı piyasada on dört rakip ajans çalışıyor: arka planda kendi oyuncularını imzalıyor, bir imza için seninle yarışıyor ve mevcut müşterilerini almaya çalışıyorlar.
 
 HER YERDE OYNANSIN DİYE YAPILDI
-Oyun tamamen cihazında çalışıyor. Hesap yok, giriş yok, internet bağlantısı gerekmiyor — uçakta, metroda, veri kapalıyken tıpatıp aynı şekilde oynanıyor. Üç kariyer yuvası, telefonunda saklanıyor.
+Oyun tamamen cihazında çalışıyor. Hesap yok, giriş yok, oyunun kendisi internet bağlantısı istemiyor — uçakta, metroda tıpatıp aynı şekilde oynanıyor. Reklam ve satın alma için bağlantı gerekiyor. Üç kariyer yuvası, telefonunda saklanıyor.
 
-TÜRKÇE VE İNGİLİZCE
-İki dil sonradan çevrilmek yerine birlikte yazılıyor ve ayarlar ekranından istediğin an aralarında geçiş yapabiliyorsun.
+YEDİ DİL
+Türkçe, İngilizce, İspanyolca, Portekizce, Almanca, Fransızca ve İtalyanca. Ayarlar ekranından istediğin an değiştirebilirsin.
 
 DÖRT ARAYÜZ TEMASI
 Dosya, Gazete, Terminal ve Saha — açık nötr bir düzen, sıcak bir kâğıt görünümü, yoğun ve koyu bir veri ekranı ve koyu lacivert ilk tasarım. Uzun bir sezonu içinde geçirmek istediğini seç.
 
 GİZLİLİK
-Oyunda hesap, analitik ve reklam SDK'sı yok. Kayıtların ve ayarların cihazındaki uygulamanın kendi depolamasında kalıyor, hiçbir yere gönderilmiyor. Tam gizlilik metni: https://xahke.github.io/privacy/pro-football-agent/tr.html
+Oyunda hesap ve kendi analitiği yok. Kayıtların ve ayarların cihazındaki uygulamanın kendi depolamasında kalıyor; oyun onları hiçbir yere göndermiyor. Reklamları Google AdMob sunuyor, yalnız doğum yılı sorusundan ve Google'ın izin akışından sonra; satın almalar Google Play üzerinden. Tam gizlilik metni: https://xahke.github.io/privacy/pro-football-agent/tr.html
 
-Ücretsiz. Tek bir geliştirici tarafından yapıldı.
+Ücretsiz; reklamlı, isteğe bağlı uygulama içi satın alma var. Tek bir geliştirici tarafından yapıldı.
 
 Sorular, hatalar ve geri bildirim: xahkeee@gmail.com
