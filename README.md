@@ -31,8 +31,8 @@ Sonra tarayıcıda:
 |---|---|
 | Ana sayfa (EN) | <http://localhost:8000/> |
 | Ana sayfa (TR) | <http://localhost:8000/tr/> |
-| Pro Football Agent (EN) | <http://localhost:8000/pro-football-agent/> |
-| Pro Football Agent (TR) | <http://localhost:8000/tr/pro-football-agent/> |
+| Pro Football Agency (EN) | <http://localhost:8000/pro-football-agent/> |
+| Pro Football Agency (TR) | <http://localhost:8000/tr/pro-football-agent/> |
 | Gizlilik metni (EN) | <http://localhost:8000/privacy/pro-football-agent/en.html> |
 | Gizlilik metni (TR) | <http://localhost:8000/privacy/pro-football-agent/tr.html> |
 
@@ -106,7 +106,7 @@ yayında. İçindeki satır AdMob arayüzünden aynen kopyalandı; elle yazılma
 ## Gizlilik metinleri
 
 `privacy/pro-football-agent/` altındaki iki sayfa, Google Play'de yayındaki
-Pro Football Agent'ın kaynak kodu incelenerek yazıldı; varsayımla doldurulmadı.
+Pro Football Agency'nin kaynak kodu incelenerek yazıldı; varsayımla doldurulmadı.
 Reklam (AdMob ve UMP rıza akışı, ödüllü reklam, on haftada bir tam ekran reklam),
 açılışta sorulan doğum yılı, Google Play satın almaları, puanlama penceresi,
 yedekleme, silme ve saklama bölümleri güncel. Uygulamanın reklam ya da satın alma
